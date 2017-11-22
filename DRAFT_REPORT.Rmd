@@ -1,0 +1,140 @@
+---
+title: "BMIN503/EPID600 Project Template"
+author: "David N Karp"
+output: 
+  html_document:
+    toc: false 
+    depth: 3 
+    theme: paper 
+    highlight: tango
+---
+```{r set-options, echo=FALSE, cache=FALSE}
+options(width = 400)
+```  
+***
+Use this template to complete your project throughout the course. Your Final Project presentation in class will be based on the contents of this document. Replace the title/name and text below with your own, but leave the headers.
+
+> Project repo available here: https://github.com/dnkarp/BMIN503_Final_Project
+
+> PROPOSAL
+> For my final project I propose to explore spatial and temporal trends in the recent opioid epidemic in the US.  My  research question has multiple parts: 1) do geographic hot-spots of drug overdose deaths exist in the US, and can we classify them as clusters of high mortality, low mortality, or outliers (i.e. a cool-spot within a larger hot-spot cluster); 2) which of the  clusters are persistent, growing, shrinking or shifting over time; 3) what socio-environmental factors (demographics, built environment, public health and healthcare) are associated with higher and lower rates of mortality, spatial cluster classification, and temporal trend classification.  I also plan to explore these trends among sub-groups, stratifying by age and race. For this project I propose to use the Multiple Casue of Death (MCOD) file from the Centers for Disease Control and Prevention (CDC) to identify mortality as an outcome, as well as data from the US CENSUS (American Community Survey (ACS)), the US Department of Agriculture (Economic Research Service (ERS)), the US Department of Health and Human Services (Area Health Resource File (AHRF)), among other publically available data sources (e.g. opioid prescription rates, crime rates, treatment facilities). The methods proposed in this work will involve tools and techniques using R, covered in class: data manipulation, descriptive statitics and univate and multivariable linear and logistic regression, data visualization, predictive analytics and machine learning.  I would also like to explore some additional, 'geospatial' functionality in R to visualize map data (e.g. rgdal, rgeos, tmap, maptools, ggmap packages in R), run tests for spatial autocorrelation (e.g. sp, spdep package in R), develop geographically weighted regression models (e.g. spgwr, lctools, GWModel packages in R), and explore methods for identifying and visualizing temporal trends (e.g spacetime package in R).
+
+> ADVISORY COMMITTEE:
+>
+[1] Douglas J Wiebe, PhD, Associate Professor of Epidemiology in Biostatistics and Epidemiology, DEBI (expertise in epidemiological research design, research on injury, acute care outcomes, and spatial analysis and geographic modeling);
+>
+[2] Christopher Morrison, PhD MPH, Post-doctoral fellow, CCEB (expertise in spatial statistics, research on injury, urban youth violence, and methods in spacetime modeling); 
+>
+[3] Zachary Meisel, MD MPH MS, Associate Professor in the Department of Emergency Medicine (expertise in emergency care management, research on substance abuse and opioid prescribing practices) 
+>
+[*] depending on which methods I end up using, I also expect to consult with other staff/faculty as necessary (e.g. Will LaCava - ML, Jason Moore - visualization)
+
+
+### Overview
+In this section, give a brief a description of your project and its goal, what data you are using to complete it, and what three faculty/staff in different fields you have spoken to about your project with a brief summary of what you learned from each person. Include a link to your final project GitHub repository.
+
+> OVERVIEW
+> The opioid crisis has reached epidemic levels with national overdose mortality rates continuing to increase in recent decades. Across the country, both rural and urban communities alike face a growing burden of disease related to addiction and death from prescription painkillers, heroin and other synthetic opioids. In this study we analyzed county-level cause of death data from 1995-2015 in order to identify spatio-temporal clusters of high and low mortality from drug overdoses, and to describe the marginal contribution of a variety of associated socio-environmental factors. The goal of this study was to first, describe patterns and trends of mortality, in order to understand where the problem has improved, worsened or shifted over space and time, and second, evaluate positive/negative drivers that may help explain and predict future deaths, in order to inform policy efforts and public health interventions toward slowing and reversing the growing death toll.
+
+
+### Introduction 
+In the first paragraph, describe the problem addressed, its significance, and some background to motivate the problem.
+
+In the second paragraph, explain why your problem is interdisciplinary, what fields can contribute to its understanding, and incorporate background related to what you learned from meeting with faculty/staff.
+
+> INTRODUCTION
+> Overdose deaths from opioids have reached epidemic levels in recent years, with a daily death toll upwards of XXX, and this year is predicted to be the worst yet [CITATION]. News headlines now regularly report on the crisis, and the federal government has finally declared a public health emergency [CITATION].  Despite recent public attention to the issue, a proper, coordinated response to the crisis has been underfunded [CITATION], misdirected [CITATION], and slow to act [CITATION]. Further, proposed solutions to address the problem are varied, from criminalizing/decriminalizing drug use, increasing access to treatment/rehabilitation, training first responders and equipping police/EMTs with Narcan, and regulating prescription practices for pain management. Mobilizing an effective campaign to slow and reverse the crisis will realistically involve local, regional, and national efforts, as well as intersect across public health, healthcare, and community stakeholders [CITATION]. The current epidemic spans diverse populations, geographies, and sources/causes, making it critical to employ a multidisciplinary approach to coming up with effective interventions. Overdoses have spiked among users of both legal and illegal drugs (prescription painkillers, heroin, new synthetic opioids) [CITATION], and the pathways between the two populations create a complex dynamic of who is at-risk and what interventions could potentially help.  Therefore, it is important to understand a variety of exposure factors (risk and protective) contributing to the problem and the solutions, including but not limited to, substance abuse/addiction treatment, harm reduction, prescription practices, pharmaceutical marketing, policy and policing, access to primary and acute healthcare, mental/behavioral healthcare, individual demographics, socio-economic-political context, social and built environment, etc.
+
+> An interdisciplinary approach to this research study will serve to inform a multi-pronged solution, whether they are led by public health campaigns, healthcare innovations, or community-driven advocacy, support, and awareness efforts.  Given the complexity, and multidimensionality of the issue, it is essential to understand the various component risk factors and points of intervention along a causal pathway, or continuum of care.  In other words, we are equally interested in upstream (education, healthy neighborhoods, unemployment, housing, preventative care) and downstream (overdose reversal, acute care, addiction treatment, criminalization) factors. At the intersection public health and healthcare, it is also important to measure burden of disease at multiple scales (geographic, temporal) and to assess exposures for both individual and community level effects. Measuring variability in outcomes, and estimating contributing risk factors will be essential to explaining which communities face higher burdens of disease, but also which types of interventions may be most suited for deployment. Methodologically, this study draws from health services and population health research, epidemiological and biostatistical methods, and geographic and spatio-temopral modeling and statistics. Novel applications of space-time models, Bayesian estimation, and machine learning/prediction techniques have been used to study various kinds of 'outcomes' (crime, disease, hospitalization, death) and to estimate contributing factors. Opioid-related work has shown that drug overdose deaths cluster geographically by county [CITATION], across time periods [CITATION], and that [X, Y, Z] are associated with higher mortality [CITATION]. Yet, more actionable, policy-ready research is needed to engage relevant stakeholders in developing and implementing effective solutions. In recent years, attention has turned to understanding the role of healthcare (access, quality, and delivery), including prescription practices, pain management, and treatment for substance abuse [CITATION], while prevention and harm reduction advocates have highlighted the importance of training first responders, overdose reversal treatment (Narcan/Naloxone), needle exchanges and injection sites [CITATION].  Input from these areas has helped to guide the research design of this study. 
+
+### Methods
+In the first paragraph, describe the data used and general methodological approach. Subsequently, incorporate full R code necessary to retrieve and clean data, and perform analysis. Be sure to include a description of code so that others (including your future self) can understand what you are doing and why. 
+
+> see final_project_working_notebook.Rmd for working code
+
+> METHODS
+This study is a retrospective analysis of drug-related death rates, using 5 years of county-level data. The analysis aims to describe spatial and temporal patterns in outcomes, through a geographic analysis; to estimate/explain outcomes based on multiple indicators related social, economic, built environment, political, and health/healthcare related factors, using linear and logistic multiple regression; and to test prediction accuracy of both traditional models (linear/logistic regression) and supervised machine learning algorithms (random forests).
+
+> DATA
+Death data was obtained from the Centers for Disease Control and Prevention (CDC/NCHS/NVSS) [Multiple Cause of Death](https://www.cdc.gov/nchs/nvss/deaths.htm) (MCOD) files.  We looked at cross-sectional data for all deaths in the US (not including outlying territories) during 5 1-year time periods (1995, 2000, 2005, 2010, 2015).  These data are a limited dataset, including incident level records, with geographic identifiers (based on location of death), at the county level.  These data also included detailed age, sex, and race/ethnicity of the deceased, as well as up to 20 recorded cause of death codes (International Classification of Diseases, Ninth (ICD-9) and Tenth Revisions (ICD-10).
+
+> Geographic boundary files were obtained from the [US Census](https://www.census.gov/geo/maps-data/data/tiger.html), and linked to the MCOD data using state and county FIPS codes.
+
+> County-level indicators were built from the following datasources:
+* DEMOGRAPHICS — race, sex, age, ethnicity, household status [Census/ACS]
+* SOCIAL — education [Census/ACS], household income [Census/ACS], inequality [SOURCE], mobility [CHETTY], homelessness [SOURCE]
+* BUILT ENVIRONMENT — urban/rural [USDA/ERS], population density, vacancy  [Census/ACS]
+* SOCIO-POLITICAL — voted Democrat/Republican in Presidential election [SOURCE]
+* ECONOMIC — population change, unemployment, job growth/loss, building permits [Census/ACS], industry [SOURCE]
+* CRIME — violent, narcotics [SOURCE]
+* HEALTHCARE — utilization (ED visits/inpatient days), access, quality, providers, [AHRF], opioid prescription rates [CDC], pain clinics [SOURCE], trauma centers, teaching hospitals, emergency departments [AHA/AHS], Herfindahl-Hirschman index (HHI) [SOURCE]
+* TREATMENT — methadone/buprenephrine clinics [SOURCE]
+* PREVENTION/HARM REDUCTION — availability of Narcan, needle exchanges [SOURCE]
+* POLICY — legalization of marijuana (medical, recreational, decriminalization) [SOURCE], incarceration [SOURCE] 
+* PUBLIC HEALTH — funding for research, awareness campaigns [SOURCE; Social Media?]
+* HEALTH STATUS — substance abuse, nutrition, primary care, mental health [BRFSS], STDs [SOURCE], suicide rates [SOURCE, or MCOD?]
+* INSURANCE — coverage status[Census/ACS], Medicaid expansion state [SOURCE]
+* PHARMACEUTICAL — payments to doctors [OpenPaymentsData]
+* GEOGRAPHY — state, region, coastal, international border [Census/TIGER]
+
+> DATA CLEANING
+Outcomes
+The mortality outcome of interest was defined as deaths due to drug-related causes. Subgroup analyses stratified by all prescription drugs, prescription opioids, and heroin. For the geographic analysis, data was compiled into a wide dataset, with death counts, by cause, by age, by race, and by year. Age-adjusted mortality rates were prepared using national age distributions for general population, and for drug-related death, by county, in order to weight total counts based on the demographic make-up of each county. This was done as a preliminary step to assess sensitivity of our outcome, however we opted to use unadjusted rates for the sake of including age in the estimation models.
+
+> Cohort
+The sample cohort was selected for cases where underlying cause of death was coded as “accidental, drug-related.”  Sub-cohorts were defined where Record Axis Cause of Death codes included either ‘prescription drugs’, ‘opioid analgesic’, or ‘heroin’.  ICD-10 codes are defined as Drug poisoning deaths (X40, X41, X42, X43, X44, X60, X61, X62, X63, X64, X85, Y10, Y11, Y12, Y13, Y14); Unintentional drug poisoning deaths (X40, X41, X42, X43, X44); Prescription Drugs (T36, T37, T38, T39, T402, T403, T404, T41, T42, T430, T431, T431, T432, T433, T434, T435, T437, T438, T439, T44, T45, T46, T47, T48, T49, T501, T502, T503, T504, T505, T506, T507, T508); Opioid Analgesics (T402, T403, T404); Heroin (T400, T401) [SOURCE].
+
+> Geography
+Geographic indicators were identified for place of death, including county, state, and census region. A spatial weights matrix was used to compute spatial autocorrelation tests, geographic weighted regression, and spatial lag models.
+
+> Temporal
+
+> ANALYSIS
+> PART1. Descriptive Statistics
+National death rates (unadjusted and age-adjusted) were plotted by year, cause of death, and by sub-groups (race, sex, age). We used histogram plots to chart the distribution of deaths by geography (region, state, county), and calculated variation between top and bottom deciles. Last, we plotted death rates by year, and by geography.
+
+> PART 2. Geographic Analysis
+We produced choropleth, or thematic maps of death rate by year, and by cause of death. A second series of maps was created to visualize trends over time (percent change, year-to-year, and beginning to end of study period). A global test of spatial autocorrelation was conducted using Moran’s I (SOURCE/R Package), for each year. A local test of spatial autocorrelation was performed using a LISA statistics (SOURCE/R Package), and cluster classifications were assigned based on significance levels below 0.05. Each county was coded as either "high-high" (high mortality rate, clustered among high mortality neighbors); “low-low”(low mortality rate, clustered among low mortality neighbors); “high-low" (high mortality rate, clustered among low mortality neighbors); “low-high” (low mortality rate, clustered among high mortality neighbors); and non-statistically significant counties (p>0.05).  Hereafter, “high-high” are referred to as HH, “low-low” as LL, “high-low”as HL, “low-high”as LH, and “non-significant”as NS.  HL and LH counties are also considered as “outliers”. We compared these cluster classifications over time to determine the rate of change from significant to non-significant, and vice versa, and any directional change among significant classes.
+
+> PART 3. Inferential Modeling
+Using the 2015 dataset only, we ran summary statistics for all independent variables, and univariate t-tests to compare across mortality outcomes (opioid vs. heroin).  We ran univariate tests to estimate linear association with mortality outcomes. We also ran univariate tests to differentiate between categorical outcomes (4 cluster classes). We then fit linear estimation models, using multiple regression (fixed effects models; mixed effect models included random effects for region, state, cluster class). We tested a geographically weighted regression (with a contiguous neighbors spatial weight), and a space-time lag variable, indicating what type of cluster each county was coded as in the previous time period. We plotted and mapped residuals errors. We also fit a logistic regression model to estimate effects associated with cluster classes.
+
+> PART 4. Exploratory/Predictive Analytics
+We performed an unsupervised learning test using a k-means algorithm to generate clusters, or classes of counties (including all variables). We then used a supervised method to describe county groups, based on county cluster classes. We used a random forest model to identify factors of importance for each class profile. We then used the random forest model to predict death rates (k-fold cross validation) (training a model with previous year?), and compared the results with the logistical model in part 3. 
+
+> PART 5. Other Visualizations
+We visualized county-level disease burden, across multiple outcomes using heat map of contributing factors, plotting incidence rate ratios, across multiple years. [can we mimic the microarray analysis to explain differential estimates between cluster classes — counties are sample cases, cluster classes are treatment/reference cohorts, predictive variables are probes, and effect estimates are differential expression levels?]
+
+### Results
+Describe your results and include relevant tables, plots, and code/comments used to obtain them. End with a brief conclusion of your findings related to the question you set out to address. You can include references if you'd like, but this is not required.
+
+> SUMMARY OF FINDINGS
+PART 1.
+PART 2.
+PART 3.
+PART 4.
+PART 5.
+
+> FIGURES
+List of tables and figures
+Table 1 - distribution of outcomes
+Figure 1 - map of outcomes by county
+Figure 2 - line chart of outcomes years
+Table 2 - global spatial autocorrelation
+Figure 3 - map of local spatial autocorrelation
+Table 3 - summary statistics, independent variables, compare by outcome (cluster class)
+Table 4 - summary of regression models, AUCs
+Table 5 - model results for selected model
+Figure 4 - k-means plot
+Figure 5 - ROC for regression model + random forests model
+Figure 6 - heat map
+
+> DISCUSSION
+Policy implications
+What can we infer about the main drivers of the opioid crisis, that can inform healthcare and public health interventions? 
+
+> Limitations and Future work
++ longitudinal data
++ bayesian model (Describe pseudo-bayesian space-time model — clustering within groups, time, and between groups, space), informed by results from parts 3-4)
++ text mining social media for qualitative indicators related to public health campaigns, awareness, predicting new spikes in deaths
++ historical markers ("war on drugs” policy changes, political changes, market crash, economic shifts), interrupted time series
