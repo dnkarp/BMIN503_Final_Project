@@ -7,6 +7,7 @@ Contents in this repo:
  - Rscript with code for cleaning and setting up the data [various sub-directories in data](https://github.com/dnkarp/BMIN503_Final_Project/tree/master/data)
  - Rmarkdown file with code for running the analysis and output results [preliminary_results_120817.Rmd](https://github.com/dnkarp/BMIN503_Final_Project/blob/master/code/preliminary_results_120817.Rmd)
  - Rmarkdown file with the writen report [DRAFT_REPORT.Rmd](https://github.com/dnkarp/BMIN503_Final_Project/blob/master/DRAFT_REPORT.Rmd)
+ - HTML file with the preliminary results for report [preliminary_results_120817.html](https://github.com/dnkarp/BMIN503_Final_Project/blob/master/preliminary_results_120817.html)
  - PDF file with a slidedeck for class presentation [karp_epid600_final_presentation-- FINAL -- 113017.pptx](https://github.com/dnkarp/BMIN503_Final_Project/blob/master/presentation/karp_epid600_final_presentation--%20FINAL%20--%20113017.pptx)
 
 The study uses CDC multiple cause of death data. The raw death data contain PII and therefore is not included in this repo.  All cells <10 have been supressed in order to make this data publically available.
