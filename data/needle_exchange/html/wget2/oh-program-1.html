@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ohio Valley Harm Reduction Coalition</title>
+
+    <!-- Bootstrap main CSS-->
+    <link href="/directory/static/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme CSS-->
+    <link href="/directory/static/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Directory customization CSS-->
+    <link href="/directory/static/css/directory.css" rel="stylesheet">
+        	
+    
+    
+  </head>
+
+  <body>
+  	<div class="container">
+  		<div class="row">
+  		<div class="header">
+  			
+  			<a href="/"><h1>NASEN <small>North American Syringe Exchange Network</small></h1></a>
+  			
+  		</div>
+  		</div>    
+    	
+		
+		<h2>Ohio Valley Harm Reduction Coalition</h2>
+		<p class="lead">Brooke &amp; Hancock County, WV; Jefferson County, OH
+		
+		</p>
+		<p>
+		<a href="../"><button class="btn btn-sm">Go back to OH listings</button></a><a href="/directory/"> <button class="btn btn-sm">Go back to directory home</button></a>		
+		</p>
+		
+		 
+		<div id="program_container" class="row">
+			
+			<div id="map_container" class="col-lg-6 col-lg-push-6">
+				<div id="map_panel" class="panel panel-default">
+					<div id="map_div" class="map panel-body">
+					</div>
+				</div>
+			</div>
+			<div id="details_container" class="col-lg-6 col-lg-pull-6">
+			
+			
+			<h3>Contact information</h3>
+				
+					<h4>Website</h4>
+					<p><a href="http://ovhrc.org/" rel="nofollow">http://ovhrc.org/</a></p>
+				
+				
+				
+				
+
+  				
+
+			
+
+			
+				
+				<h3>Addresses</h3>
+					<div id="address_container" class="row">
+						<div id="address_set">
+						
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title text-info">NORTHWOOD HEALTH SYSTEM</h4>
+								</div>
+								<div class="panel-body">
+									<div class="alert alert-info" role="alert">Exchange offered Friday 1pm-3pm. Call 304-737-3665 for more information.</div>
+									
+									<p>
+										353 American Way<br>
+										
+										Weirton, WV 26062<br>
+										<a href="https://bing.com/maps/default.aspx?where1=353 American Way, Weirton, WV 26062">Get directions</a>
+									</p>
+								</div>
+							</div>
+						
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title text-info">HANCOCK COUNTY HEALTH DEPARTMENT</h4>
+								</div>
+								<div class="panel-body">
+									<div class="alert alert-info" role="alert">Exchange offered Thursday 1pm-3pm. Call 304-564-3343 for more information.</div>
+									
+									<p>
+										100 N Court<br>
+										
+										New Cumberland, WV 26047<br>
+										<a href="https://bing.com/maps/default.aspx?where1=100 N Court, New Cumberland, WV 26047">Get directions</a>
+									</p>
+								</div>
+							</div>
+						
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title text-info">FAMILY RECOVERY CENTER</h4>
+								</div>
+								<div class="panel-body">
+									<div class="alert alert-info" role="alert">Exchange offered on the 1st and 3rd Friday of every month from 1pm-3pm. Call 740-283-4946 for more information.</div>
+									
+									<p>
+										1010 North 6th St.<br>
+										
+										Steubenville, OH 43952<br>
+										<a href="https://bing.com/maps/default.aspx?where1=1010 North 6th St., Steubenville, OH 43952">Get directions</a>
+									</p>
+								</div>
+							</div>
+						
+						</div>
+					</div>
+											
+				 
+			
+			
+			</div> <!-- Close details container div -->
+			
+			
+		</div>
+
+
+	</div>
+	
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="/directory/static/js/jquery.cookie.js"></script>    
+    <script src="/directory/static/js/bootstrap.min.js"></script>
+    
+    <!-- Bing Maps AJAX control -->
+    <script charset="UTF-8" type="text/javascript" src="https://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0&s=1"></script>        
+    
+	
+	
+	<script type="text/javascript">
+
+		$(document).ready(function () {
+			var mapOptions = {
+				credentials: 'Am0wnq-tfl2DhK7iEYHN2_2NpiOXsuGkzjSShuPKUSQs7YdK3g2wjJNLFy99B6Ou',
+				mapTypeId: Microsoft.Maps.MapTypeId.road
+			}
+			var map = new Microsoft.Maps.Map($("#map_div")[0], mapOptions);
+			
+			var mapLoadHandler = Microsoft.Maps.Events.addHandler(map, 'tiledownloadcomplete', populateMap);
+			
+			var locations=[]
+			
+			function processAddress(lat, lng) {
+				var location = new Microsoft.Maps.Location(lat, lng);
+				locations.push(location);
+				
+				var pin = new Microsoft.Maps.Pushpin(location);
+				map.entities.push(pin);
+			}
+			
+			function populateMap() {
+				Microsoft.Maps.Events.removeHandler(mapLoadHandler);
+				
+				 processAddress(40.3967174794394, -80.5316722928582);				
+				
+				 processAddress(40.498731, -80.607812);				
+				
+				 processAddress(40.3722909360093, -80.6121364839482);				
+				
+								
+				if (locations.length > 1) {
+					var viewOptions = {
+								bounds: new Microsoft.Maps.LocationRect.fromLocations(locations),
+								padding: 75
+							};
+				} else {
+					var viewOptions = {
+						center: locations[0],
+						zoom: 13
+					}
+				}
+					
+				map.setView(viewOptions);
+					
+				// Sometimes map doesn't zoom to its bounds best view correctly;
+				// in that case, wait a tick and try again.
+				setTimeout((function () {
+					if (map.getZoom() <= 5) {
+						map.setView(viewOptions);
+					}
+				}), 1000);				
+			}						
+						
+		});		
+	</script>
+	
+	
+
+  </body>
+</html>

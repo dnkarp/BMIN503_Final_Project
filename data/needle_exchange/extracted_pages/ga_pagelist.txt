@@ -1,0 +1,8 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ga/aniz-inc/">ANIZ, Inc.</a></strong><br></span>					
+					Atlanta, GA | <em>Holistic Harm Reduction/Prevention Program</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ga/atlanta-harm-reduction-center/">Atlanta Harm Reduction Center</a></strong><br></span>					
+					Atlanta, GA | <em>AHRC</em>
+				</div>

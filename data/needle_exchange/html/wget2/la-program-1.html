@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Be Safe</title>
+
+    <!-- Bootstrap main CSS-->
+    <link href="/directory/static/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme CSS-->
+    <link href="/directory/static/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Directory customization CSS-->
+    <link href="/directory/static/css/directory.css" rel="stylesheet">
+        	
+    
+    
+  </head>
+
+  <body>
+  	<div class="container">
+  		<div class="row">
+  		<div class="header">
+  			
+  			<a href="/"><h1>NASEN <small>North American Syringe Exchange Network</small></h1></a>
+  			
+  		</div>
+  		</div>    
+    	
+		
+		<h2>Be Safe</h2>
+		<p class="lead">Baton Rouge, LA
+		| <em>Capitol Area Reentry Program, Inc</em>
+		</p>
+		<p>
+		<a href="../"><button class="btn btn-sm">Go back to LA listings</button></a><a href="/directory/"> <button class="btn btn-sm">Go back to directory home</button></a>		
+		</p>
+		
+		 
+		<div id="program_container" class="row">
+			
+			<div id="map_container" class="col-lg-6 col-lg-push-6">
+				<div id="map_panel" class="panel panel-default">
+					<div id="map_div" class="map panel-body">
+					</div>
+				</div>
+			</div>
+			<div id="details_container" class="col-lg-6 col-lg-pull-6">
+			
+			
+			<h3>Contact information</h3>
+				
+				
+					<h4>Phone number</h4>
+					<p>
+						
+							<strong>Primary:</strong> 225-775-7988<br>	
+						
+					</p>
+				
+				
+				
+				<h4>Email Address</h4>
+					<p>
+					
+						<strong>Information:</strong> <a href="mailto:irving_rhonda@yahoo.com">irving_rhonda@yahoo.com</a><br>	
+					
+					</p>
+				
+
+  				
+					
+						<div class="program-note-item">
+							<h3>Services offered</h3>
+							<p>Be Safe is a &quot;Clean Syringe Access&quot; program. Be Safe does not accept dirty or used syringes. The program only distributes Safer Injection Kits.</p>
+						</div>
+					
+						<div class="program-note-item">
+							<h3>Hours of operation</h3>
+							<p>Times and dates vary. Please call for information.</p>
+						</div>
+					
+				
+
+			
+				<h3>Point of contact</h3>
+				
+					<div class="program-poc-enry">
+						<h4>Rhonda Irving</h4>
+						<p>
+						
+										
+						
+						
+					</div>
+				
+			
+
+			
+				
+				<h3>Addresses</h3>
+					<div id="address_container" class="row">
+						<div id="address_set">
+						
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title text-info">PRIMARY ADDRESS</h4>
+								</div>
+								<div class="panel-body">
+									
+									<div class="alert alert-danger" role="alert"><p><strong>Syringe services are not provided at this site.</strong></p></div>
+									<p>
+										PO Box 74772<br>
+										
+										Baton Rouge, LA 70874<br>
+										<a href="https://bing.com/maps/default.aspx?where1=PO Box 74772, Baton Rouge, LA 70874">Get directions</a>
+									</p>
+								</div>
+							</div>
+						
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title text-info">DISTRIBUTION SITE</h4>
+								</div>
+								<div class="panel-body">
+									<div class="alert alert-info" role="alert">Times and dates vary. Please call ahead.</div>
+									
+									<p>
+										1364 Swan Ave<br>
+										
+										Baton Rouge, LA 70807<br>
+										<a href="https://bing.com/maps/default.aspx?where1=1364 Swan Ave, Baton Rouge, LA 70807">Get directions</a>
+									</p>
+								</div>
+							</div>
+						
+						</div>
+					</div>
+											
+				 
+			
+			
+			</div> <!-- Close details container div -->
+			
+			
+		</div>
+
+
+	</div>
+	
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="/directory/static/js/jquery.cookie.js"></script>    
+    <script src="/directory/static/js/bootstrap.min.js"></script>
+    
+    <!-- Bing Maps AJAX control -->
+    <script charset="UTF-8" type="text/javascript" src="https://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0&s=1"></script>        
+    
+	
+	
+	<script type="text/javascript">
+
+		$(document).ready(function () {
+			var mapOptions = {
+				credentials: 'Am0wnq-tfl2DhK7iEYHN2_2NpiOXsuGkzjSShuPKUSQs7YdK3g2wjJNLFy99B6Ou',
+				mapTypeId: Microsoft.Maps.MapTypeId.road
+			}
+			var map = new Microsoft.Maps.Map($("#map_div")[0], mapOptions);
+			
+			var mapLoadHandler = Microsoft.Maps.Events.addHandler(map, 'tiledownloadcomplete', populateMap);
+			
+			var locations=[]
+			
+			function processAddress(lat, lng) {
+				var location = new Microsoft.Maps.Location(lat, lng);
+				locations.push(location);
+				
+				var pin = new Microsoft.Maps.Pushpin(location);
+				map.entities.push(pin);
+			}
+			
+			function populateMap() {
+				Microsoft.Maps.Events.removeHandler(mapLoadHandler);
+				
+				 processAddress(30.521375656127923, -91.14542388916014);				
+				
+				 processAddress(30.523699522018436, -91.17976561188698);				
+				
+								
+				if (locations.length > 1) {
+					var viewOptions = {
+								bounds: new Microsoft.Maps.LocationRect.fromLocations(locations),
+								padding: 75
+							};
+				} else {
+					var viewOptions = {
+						center: locations[0],
+						zoom: 13
+					}
+				}
+					
+				map.setView(viewOptions);
+					
+				// Sometimes map doesn't zoom to its bounds best view correctly;
+				// in that case, wait a tick and try again.
+				setTimeout((function () {
+					if (map.getZoom() <= 5) {
+						map.setView(viewOptions);
+					}
+				}), 1000);				
+			}						
+						
+		});		
+	</script>
+	
+	
+
+  </body>
+</html>

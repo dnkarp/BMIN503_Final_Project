@@ -1,0 +1,96 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/adair-county-syringe-exchange-program/">Adair County Syringe Exchange program</a></strong><br></span>					
+					Adair County, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/boyd-county-syringe-exchange-program/">Ashland-Boyd County Syringe Exchange Program</a></strong><br></span>					
+					Ashland, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/knox-county-syringe-exchange-program/">Knox County Syringe Exchange Program</a></strong><br></span>					
+					Barbourville, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/warren-county-syringe-exchange-program/">Warren County Syringe Exchange Program</a></strong><br></span>					
+					Bowling Green, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/needle-exchange-program-harrison-county/">Needle Exchange Program- Harrison County</a></strong><br></span>					
+					Cynthiana, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/boyle-county-syringe-exchange-program/">Boyle County Syringe Exchange Program</a></strong><br></span>					
+					Danville, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/pendleton-county-syringe-exchange-program/">Pendleton County Syringe Exchange program</a></strong><br></span>					
+					Falmouth, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/franklin-county-syringe-exchange-program/">Franklin County Syringe exchange Program</a></strong><br></span>					
+					Frankfort, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/carter-county-syringe-exchange-program/">Carter County Syringe Exchange Program</a></strong><br></span>					
+					Grayson, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/mercer-county-syringe-exchange-program/">Mercer County Syringe Exchange Program</a></strong><br></span>					
+					harrodsburg, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/fayette-county-syringe-exchange-program/">Fayette County  Syringe Exchange Program</a></strong><br></span>					
+					Lexington, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/louisville-metro-public-health-wellness-nep/">Louisville Metro Department of Public Health &amp; Wellness SEP</a></strong><br></span>					
+					Louisville, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/mason-county-syringe-exchange-program/">Mason County Syringe exchange Program</a></strong><br></span>					
+					Maysville, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/jackson-county-syringe-exchange-program/">Jackson County Syringe Exchange Program</a></strong><br></span>					
+					Mckee, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/rowan-county-syringe-exchange-program/">Rowan County Syringe Exchange Program</a></strong><br></span>					
+					Morehead, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/jessamine-county-syringe-exchange-program/">Jessamine County Syringe Exchange Program</a></strong><br></span>					
+					Nicholasville, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/pike-county-syringe-exchange-program/">Pike County Syringe Exchange Program</a></strong><br></span>					
+					Pikeville, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/floyd-county-syringe-exchange-program/">Floyd County Syringe Exchange Program</a></strong><br></span>					
+					Prestonburg, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/russell-county-syringe-exchange-program/">Russell County Syringe Exchange Program</a></strong><br></span>					
+					Russell County, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/pulaski-county-syringe-exchange-program/">Pulaski County Syringe Exchange Program</a></strong><br></span>					
+					Somerset, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/powell-county-syringe-exchange-program/">Powell County Syringe Exchange Program</a></strong><br></span>					
+					Stanton, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/whitley-county-syringe-exchange-program/">Whitley County Syringe Exchange Program</a></strong><br></span>					
+					Williamsburg, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/grant-county-syringe-exchange-program/">Grant County Syringe Exchange Program</a></strong><br></span>					
+					Williamstown, KY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ky/clark-county-syringe-exchange/">Clark County Syringe Exchange</a></strong><br></span>					
+					Winchester, KY 
+				</div>

@@ -1,0 +1,4 @@
+										<a href="https://bing.com/maps/default.aspx?where1=945 Center St., Oakland, CA 94607">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=35th and Peralta, Oakland, CA 94608">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=5th and Brush, Oakland, CA 94607">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=36th and Mlk, Oakland, CA 94609">Get directions</a>

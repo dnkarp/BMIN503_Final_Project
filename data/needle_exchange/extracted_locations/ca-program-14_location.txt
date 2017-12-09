@@ -1,0 +1,4 @@
+										<a href="https://bing.com/maps/default.aspx?where1=626 N. Alvarado St., Los Angeles, CA 90026">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=9401 Zamora Ave, Los Angeles, CA 90059">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=Burlington &amp; Wilshire Blvd. , Los Angeles, CA 90057">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1625 N. Schrader Blvd., Los Angeles, CA 90028">Get directions</a>

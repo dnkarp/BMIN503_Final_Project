@@ -1,0 +1,4 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/mo/xchange/">Xchange</a></strong><br></span>					
+					Kansas City, MO | <em>Kansas City CARE Clinic</em>
+				</div>

@@ -1,0 +1,16 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/mi/community-health-awareness-group/">Community Health Awareness Group</a></strong><br></span>					
+					Detroit, MI | <em>Life Points Harm Reduction Outreach Program</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/mi/step-syringe-treatment-exchange-program/">STEP (Syringe Treatment Exchange Program)</a></strong><br></span>					
+					Flint, MI | <em>Wellness HIV/AIDS Services</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/mi/clean-works/">Clean Works</a></strong><br></span>					
+					Grand Rapids, MI | <em>Grand Rapids Red Project</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/mi/hivaids-resource-center/">HIV/AIDS Resource Center</a></strong><br></span>					
+					Ypsilanti, MI | <em>HARC</em>
+				</div>

@@ -1,0 +1,44 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/mn/valhalla-place/">Valhalla Place</a></strong><br></span>					
+					Brooklyn Park, MN | <em>Access Points Harm Reduction Resources</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/mn/exchange/">The Exchange</a></strong><br></span>					
+					Duluth, MN | <em>Rural Aids Action Network (RAAN)</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/mn/twin-points-exchange/">Twin Points Exchange</a></strong><br></span>					
+					Duluth, MN 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/mn/fargomoorhead-good-neighbor-project/">Fargo/Moorhead Good Neighbor Project</a></strong><br></span>					
+					Fargo, ND &amp; Moorhead, MN 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/mn/international-falls-exchange/">International Falls Exchange</a></strong><br></span>					
+					International Falls, MN 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/mn/sacred-spirits/">Sacred Spirits</a></strong><br></span>					
+					Mahnomen, MN 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/mn/native-american-community-clinic-safer-use-program/">Native American Community Clinic Safer Use Program</a></strong><br></span>					
+					Minneapolis, MN | <em>Native American Community Clinic</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/mn/minnesota-aids-project/">Minnesota AIDS Project</a></strong><br></span>					
+					Minneapolis, MN 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/mn/minnesota-transgender-health-coalition/">Minnesota Transgender Health Coalition</a></strong><br></span>					
+					Minneapolis, MN | <em>Transgender People&#39;s Advocacy Support Services</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/mn/lees-rig-hub/">Lee&#39;s Rig Hub</a></strong><br></span>					
+					Minneapolis, MN 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/mn/rural-aids-action-network/">Rural AIDS Action Network</a></strong><br></span>					
+					St Cloud, MN 
+				</div>

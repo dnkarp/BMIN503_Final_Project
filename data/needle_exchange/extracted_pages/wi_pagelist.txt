@@ -1,0 +1,64 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wi/lifepoint-appleton/">Lifepoint Appleton</a></strong><br></span>					
+					Appleton, WI | <em>AIDS Resource Center of Wisconsin</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wi/lifepoint-beloit/">Lifepoint Beloit</a></strong><br></span>					
+					Beloit, WI | <em>AIDS Resource Center of Wisconsin</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wi/lifepoint-eau-claire/">Lifepoint Eau Claire</a></strong><br></span>					
+					Eau Claire, WI | <em>AIDS Resource Center of Wisconsin</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wi/lifepoint-green-bay/">Lifepoint Green Bay</a></strong><br></span>					
+					Green Bay, WI | <em>AIDS Resource Center of Wisconsin</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wi/lifepoint-kenosha/">Lifepoint Kenosha</a></strong><br></span>					
+					Kenosha, WI | <em>AIDS Resource Center of Wisconsin</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wi/lifepoint-la-crosse/">Lifepoint La Crosse</a></strong><br></span>					
+					La Crosse, WI | <em>AIDS Resource Center of Wisconsin</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wi/lifepoint-madison/">Lifepoint Madison</a></strong><br></span>					
+					Madison, WI | <em>AIDS Resource Center of Wisconsin</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wi/networks/">Networks</a></strong><br></span>					
+					Madison, WI | <em>AIDS Network</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wi/madison-public-health/">Madison Public Health</a></strong><br></span>					
+					Madison, WI | <em>Dane County</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wi/lifepoint-milwaukee/">Lifepoint Milwaukee</a></strong><br></span>					
+					Milwaukee, WI | <em>AIDS Resource Center of Wisconsin</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wi/sixteenth-st-community-health-center-nep/">Sixteenth St Community Health Center NEP</a></strong><br></span>					
+					Milwaukee, WI 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wi/gwayakobimaadiziwin-bad-river-needle-exchange/">Gwayakobimaadiziwin Bad River Needle Exchange</a></strong><br></span>					
+					Odanah, WI 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wi/lifepoint/">LIFEPOINT</a></strong><br></span>					
+					Oshkosh, WI | <em>Winnebago County Health Department</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wi/lifepoint-racine/">Lifepoint Racine</a></strong><br></span>					
+					Racine, WI | <em>AIDS Resource Center of Wisconsin</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wi/lifepoint-wausau/">Lifepoint Wausau</a></strong><br></span>					
+					Schofield, WI | <em>AIDS Resource Center of Wisconsin</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wi/lifepoint-superior/">Lifepoint Superior</a></strong><br></span>					
+					Superior, WI | <em>AIDS Resource Center of Wisconsin</em>
+				</div>

@@ -1,0 +1,36 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/nc/asheboro-alliance-and-risk-prevention/">Asheboro Alliance and Risk Prevention</a></strong><br></span>					
+					Asheboro, NC 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/nc/needle-exchange-program-of-asheville/">Needle Exchange Program of Asheville</a></strong><br></span>					
+					Asheville, NC 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/nc/triangle-health-collective/">Triangle Health Collective</a></strong><br></span>					
+					Durham, NC 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/nc/syringe-exchange-program-franklin/">Syringe Exchange Program of Franklin</a></strong><br></span>					
+					Franklin, NC 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/nc/piedmont-north-carolina-urban-survivors-union/">Piedmont North Carolina Urban Survivors Union</a></strong><br></span>					
+					Greensboro, NC 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/nc/olive-branch-ministry/">Olive Branch Ministry</a></strong><br></span>					
+					Hickory, NC 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/nc/care-syringe-exchange-program/">CARE Syringe Exchange Program</a></strong><br></span>					
+					Rocky Mount, NC 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/nc/to-the-point-prevention-prayer/">To The Point Prevention &amp; Prayer</a></strong><br></span>					
+					Roxboro, NC 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/nc/twin-city-harm-reduction-collective/">Twin City Harm Reduction Collective</a></strong><br></span>					
+					Winston-Salem, NC 
+				</div>

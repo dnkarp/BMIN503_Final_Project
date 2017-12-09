@@ -1,0 +1,4 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ri/community-access/">Community Access</a></strong><br></span>					
+					Providence, RI | <em>AIDS Care Ocean State</em>
+				</div>

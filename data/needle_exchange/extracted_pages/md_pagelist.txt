@@ -1,0 +1,4 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/md/baltimore-city-needle-exchange-program/">Baltimore City Needle Exchange Program</a></strong><br></span>					
+					Baltimore, MD 
+				</div>

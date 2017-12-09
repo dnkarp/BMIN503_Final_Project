@@ -1,0 +1,4 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/sc/challenges-inc/">Challenges Inc.</a></strong><br></span>					
+					Travelers Rest, SC 
+				</div>

@@ -1,0 +1,4 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/hi/chow-project/">Chow Project</a></strong><br></span>					
+					Honolulu, HI 
+				</div>

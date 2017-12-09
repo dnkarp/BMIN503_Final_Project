@@ -1,0 +1,2 @@
+										<a href="https://bing.com/maps/default.aspx?where1=2124 4th Ave, Seattle, WA 98121">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1161 11th Ave, Seattle, WA 98122">Get directions</a>

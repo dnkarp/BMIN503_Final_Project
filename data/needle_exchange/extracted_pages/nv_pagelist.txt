@@ -1,0 +1,8 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/nv/trac-b-exchange/">Trac-B Exchange</a></strong><br></span>					
+					Las Vegas, NV | <em>Nevada AIDS Research &amp; Education Society</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/nv/change-point-harm-reduction-center/">Change Point Harm Reduction Center</a></strong><br></span>					
+					Reno, NV | <em>Northern Nevada HOPES </em>
+				</div>

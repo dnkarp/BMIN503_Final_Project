@@ -1,0 +1,12 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/la/be-safe/">Be Safe</a></strong><br></span>					
+					Baton Rouge, LA | <em>Capitol Area Reentry Program, Inc</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/la/new-orleans-syringe-access-program/">New Orleans Syringe Access Program</a></strong><br></span>					
+					New Orleans, LA | <em>NOSAP</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/la/women-with-a-vision-inc/">Women With A Vision, Inc.</a></strong><br></span>					
+					New Orleans, LA 
+				</div>

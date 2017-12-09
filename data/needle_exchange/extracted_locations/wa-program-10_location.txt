@@ -1,0 +1,4 @@
+										<a href="https://bing.com/maps/default.aspx?where1=535 Dock St, Tacoma, WA 98402">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=S 14th St and S G St, Tacoma, WA 98405">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=E 32nd and Portland, Tacoma, WA 98404">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=3629 S D st, Tacoma, WA 98418">Get directions</a>

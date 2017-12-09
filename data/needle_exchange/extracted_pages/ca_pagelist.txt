@@ -1,0 +1,180 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/need/">NEED</a></strong><br></span>					
+					Alameda, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/cohrt/">COHRT</a></strong><br></span>					
+					Alameda, CA | <em>Punks with Lunch</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/generations-project/">Generations Project</a></strong><br></span>					
+					Alameda, CA | <em>Tri City Health Center</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/casa-segura-heppac/">HIV Education &amp; Prevention Project of Alameda County (HEPPAC)</a></strong><br></span>					
+					Alameda, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/del-norte-sep/">Del Norte SEP</a></strong><br></span>					
+					Del Norte, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/mobile-medical-office/">Mobile Medical Office</a></strong><br></span>					
+					Eureka, CA | <em>Open Door Community Health Centers</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/fresno-needle-exchange/">Fresno Needle Exchange</a></strong><br></span>					
+					Fresno, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/kings-county-syringe-exchange/">Kings County Syringe Exchange</a></strong><br></span>					
+					Hanford, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/humboldt-area-center-harm-reduction/">Humboldt Area Center for Harm Reduction</a></strong><br></span>					
+					Humboldt, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/redwoods-rural-health-center/">Redwoods Rural Health Center</a></strong><br></span>					
+					Humboldt, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/north-coast-aids-project/">North Coast AIDS Project</a></strong><br></span>					
+					Humboldt, CA | <em>Humboldt County Public Health Branch</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/any-positive-change-inc/">Any Positive Change, Inc</a></strong><br></span>					
+					Lake, CA | <em>Lake County</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/east-co-exchange/">East Co Exchange</a></strong><br></span>					
+					Lakeside, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/la-community-health-project/">LA Community Health Project</a></strong><br></span>					
+					Los Angeles, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/aadap/">Asian American Drug Abuse Program (AADAP)</a></strong><br></span>					
+					Los Angeles, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/bienestar-harm-reduction/">Bienestar Human Services Program</a></strong><br></span>					
+					Los Angeles, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/common-ground-needle-exchange/">Common Ground Needle Exchange</a></strong><br></span>					
+					Los Angeles, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/tarzana-treatment-center/">Tarzana Certified NEP</a></strong><br></span>					
+					Los Angeles, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/homeless-healthcare-la/">Needle Exchange at the Center for Harm Reduction</a></strong><br></span>					
+					Los Angeles, CA | <em>Homeless Healthcare LA</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/point-program/">The Spahr Center</a></strong><br></span>					
+					Marin, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/mendocino-county-aids-volunteer-network/">Mendocino County AIDS/Viral Hepatitis Network (McAVHN)</a></strong><br></span>					
+					Mendocino, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/modesto-nep/">Modesto NEP</a></strong><br></span>					
+					Modesto, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/aids-support-network/">AIDS Support Network</a></strong><br></span>					
+					Monterey, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/orange-county-needle-exchange-program/">Orange County Needle Exchange Program</a></strong><br></span>					
+					Orange, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/silicon-valley-prevention-project/">Silicon Valley Prevention Project</a></strong><br></span>					
+					Redwood City, CA | <em>Formerly APAN</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/safe-points-syringe-exchange/">Safe Points Syringe Exchange</a></strong><br></span>					
+					Sacramento, CA | <em>Harm Reduction Services</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/safer-alternatives-thru-networking-education-or-sane/">Safer Alternatives thru Networking &amp; Education (SANE)</a></strong><br></span>					
+					Sacramento, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/safe-point-san-diego/">Safe Point San Diego</a></strong><br></span>					
+					San Diego, CA | <em>Family Health Centers of San Diego</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/st-james-infirmary/">St James Infirmary</a></strong><br></span>					
+					San Francisco, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/homeless-youth-alliance/">Homeless Youth Alliance</a></strong><br></span>					
+					San Francisco, CA | <em>San Francisco Needle Exchange</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/transthrive-needle-exchange/">TRANS:THRIVE Needle Exchange</a></strong><br></span>					
+					San Francisco, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/syringe-access-program/">SAS Needle Exchange</a></strong><br></span>					
+					San Francisco, CA | <em>San Francisco AIDS Foundation</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/at-the-crossroads/">At the Crossroads</a></strong><br></span>					
+					San Francisco, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/san-francisco-drug-users-union/">San Francisco Drug User&#39;s Union</a></strong><br></span>					
+					San Francisco, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/glide-harm-reduction-services/">Glide Harm Reduction Services</a></strong><br></span>					
+					San Francisco, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/slo-bangers/">SLO Bangers</a></strong><br></span>					
+					San Luis Obispo, CA | <em>SLOSEP</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/acrc-syringe-exchange/">ACRC Syringe Access Program (ASAP)</a></strong><br></span>					
+					San Mateo, CA | <em>AIDS Community Research Consortium</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/santa-barbara-needle-exchange/">The Right Outfit</a></strong><br></span>					
+					Santa Barbara, CA | <em>Pacific Pride Foundation</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/santa-clara-county-needle-exchange/">Santa Clara County Needle Exchange</a></strong><br></span>					
+					Santa Clara, CA | <em>HIV/AIDS Prevention &amp; Control Program</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/santa-cruz-county-syringe-services-program/">Santa Cruz County Syringe Services Program</a></strong><br></span>					
+					Santa Cruz, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/shasta-county-syringe-exchange-program/">Shasta County Syringe Exchange Program</a></strong><br></span>					
+					Shasta, CA | <em>Shasta County Public Health</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/sonoma-county-aids-networkface-face/">Face to Face</a></strong><br></span>					
+					Sonoma, CA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/sharp/">SHARP</a></strong><br></span>					
+					Sonoma, CA | <em>Sonoma County</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/the-center/">The Center</a></strong><br></span>					
+					Ventura, CA | <em>Ventura County Public Health</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ca/yolo-county-health-department/">Yolo County Health Department</a></strong><br></span>					
+					W Sacramento, CA | <em>John H Jones Center</em>
+				</div>

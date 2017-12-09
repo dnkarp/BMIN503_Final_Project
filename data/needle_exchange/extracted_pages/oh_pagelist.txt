@@ -1,0 +1,36 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/oh/ohio-valley-harm-reduction-coalition/">Ohio Valley Harm Reduction Coalition</a></strong><br></span>					
+					Brooke &amp; Hancock County, WV; Jefferson County, OH 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/oh/project-swap/">Project SWAP</a></strong><br></span>					
+					Canton, OH 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/oh/cincinnati-exchange-project/">Cincinnati Exchange Project</a></strong><br></span>					
+					Cincinnati, OH 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/oh/free-clinic-of-greater-cleveland/">Free Clinic of Greater Cleveland</a></strong><br></span>					
+					Cleveland, OH 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/oh/safe-point-program/">Safe Point Program</a></strong><br></span>					
+					Columbus, OH | <em>Equitas Health</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/oh/greene-county-syringe-exchange/">Greene County Syringe Exchange</a></strong><br></span>					
+					Greene County, OH 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/oh/prevention-protection/">Prevention Protection</a></strong><br></span>					
+					Newark, OH 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/oh/prevention-not-permission/">Prevention Not Permission</a></strong><br></span>					
+					Portsmouth, OH | <em>Portsmouth City Health Department</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/oh/northwest-ohio-syringe-services/">Northwest Ohio Syringe Services</a></strong><br></span>					
+					Toledo , OH 
+				</div>

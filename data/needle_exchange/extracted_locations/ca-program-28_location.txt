@@ -1,0 +1,3 @@
+										<a href="https://bing.com/maps/default.aspx?where1=823 Gateway Center, San Diego, CA 92102">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=720 15th St, San Diego, CA 92101">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=3795 31st St, San Diego, CA 92104">Get directions</a>

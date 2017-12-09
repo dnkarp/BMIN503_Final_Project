@@ -1,0 +1,16 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/dc/bread-for-the-city/">Bread for the City</a></strong><br></span>					
+					Washington, DC 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/dc/transgender-health-empowerment-inc/">Transgender Health Empowerment Inc</a></strong><br></span>					
+					Washington, DC 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/dc/hips/">HIPS</a></strong><br></span>					
+					Washington, DC | <em>S/ex</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/dc/family-medical-counseling-services/">Family Medical Counseling Services</a></strong><br></span>					
+					Washington, DC 
+				</div>

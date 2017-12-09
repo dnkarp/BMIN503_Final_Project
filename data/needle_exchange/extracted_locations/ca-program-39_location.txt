@@ -1,0 +1,8 @@
+										<a href="https://bing.com/maps/default.aspx?where1=2101 Alexian Drive, San Jose, CA 95116">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=660 South Fair Oaks Avenue, Sunnyvale, CA 94086">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=90 Highland Ave, San Martin, CA 95046">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=976 Lenzen Ave, San Jose, CA 95126">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=Story Road &amp; Knox Avenue, San Jose, CA 95122">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=S 2nd &amp; Reed, San Jose, CA 95112">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=7475 Camino Arroyo, Gilroy, CA 95020">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=Curtner Ave and Little Orchard St., San Jose, CA 95125">Get directions</a>

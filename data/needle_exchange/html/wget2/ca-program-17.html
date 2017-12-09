@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Common Ground Needle Exchange</title>
+
+    <!-- Bootstrap main CSS-->
+    <link href="/directory/static/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme CSS-->
+    <link href="/directory/static/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Directory customization CSS-->
+    <link href="/directory/static/css/directory.css" rel="stylesheet">
+        	
+    
+    
+  </head>
+
+  <body>
+  	<div class="container">
+  		<div class="row">
+  		<div class="header">
+  			
+  			<a href="/"><h1>NASEN <small>North American Syringe Exchange Network</small></h1></a>
+  			
+  		</div>
+  		</div>    
+    	
+		
+		<h2>Common Ground Needle Exchange</h2>
+		<p class="lead">Los Angeles, CA
+		
+		</p>
+		<p>
+		<a href="../"><button class="btn btn-sm">Go back to CA listings</button></a><a href="/directory/"> <button class="btn btn-sm">Go back to directory home</button></a>		
+		</p>
+		
+		 
+		<div id="program_container" class="row">
+			
+			<div id="map_container" class="col-lg-6 col-lg-push-6">
+				<div id="map_panel" class="panel panel-default">
+					<div id="map_div" class="map panel-body">
+					</div>
+				</div>
+			</div>
+			<div id="details_container" class="col-lg-6 col-lg-pull-6">
+			
+			
+			<h3>Contact information</h3>
+				
+					<h4>Website</h4>
+					<p><a href="http://commongroundhiv.org/" rel="nofollow">http://commongroundhiv.org/</a></p>
+				
+				
+					<h4>Phone number</h4>
+					<p>
+						
+							<strong>Primary:</strong> (310) 314-5480<br>	
+						
+					</p>
+				
+				
+				
+
+  				
+
+			
+				<h3>Points of contact</h3>
+				
+					<div class="program-poc-enry">
+						<h4>Arron Barba</h4>
+						<p>
+						
+						Email: <a href="mailto:abarba@mednet.ucla.edu">abarba@mednet.ucla.edu</a><br>				
+						
+						
+					</div>
+				
+					<div class="program-poc-enry">
+						<h4>Leslie O&#39;Hara</h4>
+						<p>
+						
+						Email: <a href="mailto:LOHara@mednet.ucla.edu">LOHara@mednet.ucla.edu</a><br>				
+						
+						
+					</div>
+				
+			
+
+			
+				
+				<h3>Addresses</h3>
+					<div id="address_container" class="row">
+						<div id="address_set">
+						
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title text-info">PRIMARY ADDRESS</h4>
+								</div>
+								<div class="panel-body">
+									
+									<div class="alert alert-danger" role="alert"><p><strong>Syringe services are not provided at this site.</strong></p></div>
+									<p>
+										2401 Lincoln Blvd<br>
+										
+										Santa Monica, CA 90405<br>
+										<a href="https://bing.com/maps/default.aspx?where1=2401 Lincoln Blvd, Santa Monica, CA 90405">Get directions</a>
+									</p>
+								</div>
+							</div>
+						
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title text-info">INGLEWOOD MEDICAL AND MENTAL HEALTH</h4>
+								</div>
+								<div class="panel-body">
+									<div class="alert alert-info" role="alert">Tues &amp; Thurs: 9 am – 11 am</div>
+									
+									<p>
+										4450 Century Blvd.<br>
+										
+										Inglewood, CA 90304<br>
+										<a href="https://bing.com/maps/default.aspx?where1=4450 Century Blvd., Inglewood, CA 90304">Get directions</a>
+									</p>
+								</div>
+							</div>
+						
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title text-info">VENICE FAMILY CLINIC</h4>
+								</div>
+								<div class="panel-body">
+									<div class="alert alert-info" role="alert">Mon: 2pm-8pm; Tues &amp; Wed: 5pm-8pm; Fri: 2pm-5pm</div>
+									
+									<p>
+										604 Rose Ave.<br>
+										
+										Venice, CA 90291<br>
+										<a href="https://bing.com/maps/default.aspx?where1=604 Rose Ave., Venice, CA 90291">Get directions</a>
+									</p>
+								</div>
+							</div>
+						
+						</div>
+					</div>
+											
+				 
+			
+			
+			</div> <!-- Close details container div -->
+			
+			
+		</div>
+
+
+	</div>
+	
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="/directory/static/js/jquery.cookie.js"></script>    
+    <script src="/directory/static/js/bootstrap.min.js"></script>
+    
+    <!-- Bing Maps AJAX control -->
+    <script charset="UTF-8" type="text/javascript" src="https://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0&s=1"></script>        
+    
+	
+	
+	<script type="text/javascript">
+
+		$(document).ready(function () {
+			var mapOptions = {
+				credentials: 'Am0wnq-tfl2DhK7iEYHN2_2NpiOXsuGkzjSShuPKUSQs7YdK3g2wjJNLFy99B6Ou',
+				mapTypeId: Microsoft.Maps.MapTypeId.road
+			}
+			var map = new Microsoft.Maps.Map($("#map_div")[0], mapOptions);
+			
+			var mapLoadHandler = Microsoft.Maps.Events.addHandler(map, 'tiledownloadcomplete', populateMap);
+			
+			var locations=[]
+			
+			function processAddress(lat, lng) {
+				var location = new Microsoft.Maps.Location(lat, lng);
+				locations.push(location);
+				
+				var pin = new Microsoft.Maps.Pushpin(location);
+				map.entities.push(pin);
+			}
+			
+			function populateMap() {
+				Microsoft.Maps.Events.removeHandler(mapLoadHandler);
+				
+				 processAddress(34.0088382891178, -118.478602606351);				
+				
+				 processAddress(33.94516, -118.354);				
+				
+				 processAddress(33.999, -118.47164);				
+				
+								
+				if (locations.length > 1) {
+					var viewOptions = {
+								bounds: new Microsoft.Maps.LocationRect.fromLocations(locations),
+								padding: 75
+							};
+				} else {
+					var viewOptions = {
+						center: locations[0],
+						zoom: 13
+					}
+				}
+					
+				map.setView(viewOptions);
+					
+				// Sometimes map doesn't zoom to its bounds best view correctly;
+				// in that case, wait a tick and try again.
+				setTimeout((function () {
+					if (map.getZoom() <= 5) {
+						map.setView(viewOptions);
+					}
+				}), 1000);				
+			}						
+						
+		});		
+	</script>
+	
+	
+
+  </body>
+</html>

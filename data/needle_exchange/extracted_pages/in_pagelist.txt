@@ -1,0 +1,32 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/in/madison-county-sep/">Madison County SEP</a></strong><br></span>					
+					Anderson, IN 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/in/indiana-recovery-alliance/">Indiana Recovery Alliance</a></strong><br></span>					
+					Bloomington, IN | <em>Indiana Recovery Alliance</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/in/northeast-indiana-positive-resource-connection-inc/">Northeast Indiana Positive Resource Connection Inc. </a></strong><br></span>					
+					Fort Wayne, IN 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/in/fort-wayne-allen-county-department-health-ssp/">Fort Wayne Allen County Department of Health SSP</a></strong><br></span>					
+					Fort Wayne, IN 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/in/harm-reduction-institute/">Harm Reduction Institute</a></strong><br></span>					
+					Indianapolis, IN | <em>The AIDS Brigade</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/in/gateway-hope/">Gateway To Hope</a></strong><br></span>					
+					Lafayette, IN 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/in/wayne-county-health-department/">Wayne County Health Department</a></strong><br></span>					
+					Richmond, IN 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/in/scott-county-health-department/">Scott County Health Department</a></strong><br></span>					
+					Scottsburg, IN 
+				</div>

@@ -1,0 +1,24 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/nj/prevention-resource-network/">Prevention Resource Network</a></strong><br></span>					
+					Asbury Park, NJ 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/nj/syringe-access-program-atlantic-city/">Syringe Access Program Atlantic City</a></strong><br></span>					
+					Atlantic City, NJ | <em>South Jersey AIDS Alliance</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/nj/harm-reduction-syringe-access-program/">HARM Reduction Syringe Access Program</a></strong><br></span>					
+					Camden, NJ | <em>Camden AHEC</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/nj/project-x-change-works/">Project X-Change Works</a></strong><br></span>					
+					Jersey City, NJ | <em>Hyacinth AIDS Foundation</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/nj/njcri/">NJCRI</a></strong><br></span>					
+					Newark, NJ | <em>North Jersey AIDS Alliance Project Access</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/nj/well-hope-community-development-corporation-inc/">Point of Hope</a></strong><br></span>					
+					Paterson, NJ | <em>Well of Hope Community Development Corporation, Inc.</em>
+				</div>

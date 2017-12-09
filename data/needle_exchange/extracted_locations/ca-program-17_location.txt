@@ -1,0 +1,3 @@
+										<a href="https://bing.com/maps/default.aspx?where1=2401 Lincoln Blvd, Santa Monica, CA 90405">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=4450 Century Blvd., Inglewood, CA 90304">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=604 Rose Ave., Venice, CA 90291">Get directions</a>

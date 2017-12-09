@@ -1,0 +1,40 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/or/clatsop-county-department-public-health/">Clatsop County Department of Public Health</a></strong><br></span>					
+					Clatsop County, OR 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/or/benton-county-health-department/">Benton County Health Department</a></strong><br></span>					
+					Corvallis, OR 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/or/deschutes-county-syringe-exchange/">Deschutes County Syringe Exchange</a></strong><br></span>					
+					Deschutes County, OR | <em>Deschutes County Health Department</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/or/hiv-alliance-sana-needle-exchange/">HIV Alliance Sana Needle Exchange</a></strong><br></span>					
+					Eugene, OR | <em>HIV Alliance</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/or/hiv-alliance-of-josephine-county/">HIV Alliance of Josephine County</a></strong><br></span>					
+					Grants Pass, OR | <em>Newman United Methodist Church Bldg</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/or/umatilla-morrow-alternatives/">Umatilla Morrow Alternatives</a></strong><br></span>					
+					Hermiston, OR 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/or/jackson-county-syringe-exchange/">Jackson County Syringe Exchange</a></strong><br></span>					
+					Medford, OR 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/or/multnomah-county-hivhep-community-program/">Multnomah County HIV/HEP Community Program</a></strong><br></span>					
+					Portland, OR 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/or/outside-in/">Outside In</a></strong><br></span>					
+					Portland, OR | <em>Injection Drug Users Health Services (IDUHS)</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/or/hiv-alliance-of-douglas-county/">HIV Alliance of Douglas County</a></strong><br></span>					
+					Roseburg, OR 
+				</div>

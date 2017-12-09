@@ -1,0 +1,36 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/co/the-works/">The Works</a></strong><br></span>					
+					Boulder, CO | <em>Boulder County Public Health</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/co/colorado-springs-aids-projects/">Colorado Springs AIDS Projects</a></strong><br></span>					
+					Colorado Springs, CO | <em>Colorado Health Network</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/co/harm-reduction-action-center/">Harm Reduction Action Center</a></strong><br></span>					
+					Denver, CO 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/co/denver-colorado-aids-projectaccess-point/">Denver Colorado AIDS Project/Access Point</a></strong><br></span>					
+					Denver, CO 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/co/northern-colorado-aids-project/">Northern Colorado AIDS Project</a></strong><br></span>					
+					Ft Collins, CO 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/co/rocky-mountain-morpheus-project/">Rocky Mountain Morpheus Project</a></strong><br></span>					
+					Georgetown, CO 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/co/westcap-access-point/">WestCAP Access Point</a></strong><br></span>					
+					Grand Junction, CO | <em>Western Colorado AIDS Project</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/co/options-treatment-llc/">Options Treatment LLC </a></strong><br></span>					
+					Louisville , CO 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/co/pueblo-harm-reduction-center/">Pueblo Harm Reduction Center</a></strong><br></span>					
+					Pueblo, CO 
+				</div>

@@ -1,0 +1,24 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ct/bridgeport-health-department-syringe-exchange-program/">Bridgeport Health Department Syringe Exchange Program</a></strong><br></span>					
+					Bridgeport, CT | <em>Bridgeport County Health Dept</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ct/aids-project-greater-danbury-nep/">AIDS Project Greater Danbury NEP</a></strong><br></span>					
+					Danbury, CT 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ct/greater-hartford-harm-reduction-coalition/">Greater Hartford Harm Reduction Coalition</a></strong><br></span>					
+					Hartford, CT 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ct/new-haven-syringe-exchange/">New Haven Syringe Exchange</a></strong><br></span>					
+					New Haven, CT | <em>New Haven Health Dept</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ct/mid-fairfield-aids-project-mfap/">Mid Fairfield AIDS Project (MFAP)</a></strong><br></span>					
+					Norwalk, CT 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ct/windham-harm-reducation-coalition/">Windham Harm Reducation Coalition</a></strong><br></span>					
+					Willimantic, CT 
+				</div>

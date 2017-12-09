@@ -1,0 +1,36 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/il/neome-needle-exchange-operation-metro-east/">NEOME Needle Exchange Operation Metro East</a></strong><br></span>					
+					Belleville, IL | <em>Bethany Place</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/il/swap/">SWAP</a></strong><br></span>					
+					Champaign, IL | <em>Champaign-Urbana Pub Health Dist</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/il/chicago-recovery-alliance-cra/">Chicago Recovery Alliance CRA</a></strong><br></span>					
+					Chicago, IL 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/il/test-positive-aware-network/">Test Positive Aware Network</a></strong><br></span>					
+					Chicago, IL 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/il/community-outreach-intervention-projects/">Community Outreach Intervention Projects</a></strong><br></span>					
+					Chicago, IL | <em>University of Illinois Div of Epidemiology &amp; Biostatistics</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/il/protecting-our-community/">Protecting Our Community</a></strong><br></span>					
+					Dixon, IL 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/il/sisters-and-brothers-helping-each-other/">Sisters and Brothers Helping Each Other</a></strong><br></span>					
+					Kankakee, IL 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/il/phoenix-center/">Phoenix Center</a></strong><br></span>					
+					Springfield, IL 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/il/springfield-harm-reduction-initiative/">Springfield Harm Reduction Initiative</a></strong><br></span>					
+					Springfield, IL | <em>Phoenix Center</em>
+				</div>

@@ -1,0 +1,96 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/new-york-harm-reduction-educators-inc/">New York Harm Reduction Educators, Inc</a></strong><br></span>					
+					Bronx, NY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/boom-health/">BOOM! Health</a></strong><br></span>					
+					Bronx, NY | <em>Citiwide Harm Reduction</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/st-anns-corner-of-harm-reduction/">St Ann&#39;s Corner of Harm Reduction</a></strong><br></span>					
+					Bronx, NY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/vocal-ny/">Vocal-NY</a></strong><br></span>					
+					Brooklyn, NY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/after-hours-project-inc/">After Hours Project, Inc</a></strong><br></span>					
+					Brooklyn, NY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/family-services-network-of-ny/">Family Services Network of NY</a></strong><br></span>					
+					Brooklyn, NY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/project-safe/">Project Safe</a></strong><br></span>					
+					Buffalo, NY | <em>AIDS Community Center Western NY</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/acqc-far-rockaway/">ACQC - Far Rockaway</a></strong><br></span>					
+					Far Rockaway, NY | <em>Queens Syringe Access Program</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/community-action-social-justice-casj/">Community Action for Social Justice (CASJ)</a></strong><br></span>					
+					Hauppauge, NY | <em>NY Social Justice</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/long-island-minority-aids-coalition/">Long Island Minority AIDS Coalition</a></strong><br></span>					
+					Hempstead, NY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/tompkins-county-prevention-point/">Tompkins County Prevention Point</a></strong><br></span>					
+					Ithaca, NY | <em>Southern Tier AIDS Project</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/acqc-jamaica/">ACQC - Jamaica</a></strong><br></span>					
+					Jamaica, NY | <em>Queens Syringe Access Program</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/broome-county-prevention-point/">Broome County Prevention Point</a></strong><br></span>					
+					Johnson City, NY | <em>Southern Tier AIDS Program</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/acqc-long-island-city/">ACQC - Long Island City</a></strong><br></span>					
+					Long Island City, NY | <em>Queens Syringe Access Program</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/harm-reduction-program/">Harm Reduction Program</a></strong><br></span>					
+					Mt Vernon, NY | <em>Urban League of Westchester County</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/streetwork-project/">Streetwork Project</a></strong><br></span>					
+					New York, NY | <em>Safe Horizons Inc</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/washington-heights-corner-project/">Washington Heights CORNER Project</a></strong><br></span>					
+					New York, NY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/frostd/">FROST&#39;D</a></strong><br></span>					
+					New York, NY | <em>Harlem United Community AIDS Center</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/positive-health-project/">Positive Health Project</a></strong><br></span>					
+					New York, NY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/housing-works-inc/">Housing Works, Inc</a></strong><br></span>					
+					New York, NY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/lower-east-side-harm-reduction/">Lower East Side Harm Reduction</a></strong><br></span>					
+					New York, NY 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/aids-rochester-harm-reduction-program/">AIDS Rochester Harm Reduction Program</a></strong><br></span>					
+					Rochester, NY | <em>Trillium Health</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/access-care-and-resources-health/">Access Care and Resources Health</a></strong><br></span>					
+					Syracuse, NY | <em>ACR</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ny/acqc-woodside/">ACQC - Woodside</a></strong><br></span>					
+					Woodside, NY 
+				</div>

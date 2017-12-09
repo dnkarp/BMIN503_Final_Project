@@ -1,0 +1,8 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/fl/flashlight-of-hope-inc/">Flashlight of Hope Inc</a></strong><br></span>					
+					Miami, FL 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/fl/idea-exchange/">IDEA Exchange</a></strong><br></span>					
+					Miami, FL 
+				</div>

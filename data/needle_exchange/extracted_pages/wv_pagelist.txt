@@ -1,0 +1,40 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wv/kanawha-charleston-health-department-nep/">Kanawha-Charleston Health Department NEP</a></strong><br></span>					
+					Charleston, WV | <em>Kanawha-Charleston Health Department</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wv/harrison-county-harm-reduction-program/">Harrison County Harm Reduction Program</a></strong><br></span>					
+					Clarksburg, WV 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wv/fayette-county-harm-reduction/">Fayette County Harm Reduction</a></strong><br></span>					
+					Fayetteville, WV 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wv/cabell-huntington-harm-reduction-program/">Cabell-Huntington Harm Reduction Program</a></strong><br></span>					
+					Huntington, WV | <em>Cabell-Huntington Health Department</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wv/ohio-valley-harm-reduction-coalition/">Ohio Valley Harm Reduction Coalition</a></strong><br></span>					
+					Jefferson County, OH; Brooke &amp; Hancock County, WV 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wv/light-project/">Milan Puskar Health Right LIGHT Project</a></strong><br></span>					
+					Morgantown, WV 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wv/clean-parkersburg/">Clean Up Parkersburg</a></strong><br></span>					
+					Vienna, WV | <em>Clean Up Parkersburg</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wv/lew-county-health-department-harm-reduction-program/">Lewis County Health Department Harm Reduction Program</a></strong><br></span>					
+					Weston, WV 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wv/wheeling-ohio-county-health-department-nep/">Wheeling-Ohio County Health Department NEP</a></strong><br></span>					
+					Wheeling, WV | <em>Wheeling-Ohio County Health Department</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/wv/wheeling-ohio-county-health-department-needle-exchange-program/">Wheeling-Ohio County Health Department Needle Exchange Program</a></strong><br></span>					
+					Wheeling, WV 
+				</div>

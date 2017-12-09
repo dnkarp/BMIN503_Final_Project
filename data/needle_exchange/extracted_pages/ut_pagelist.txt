@@ -1,0 +1,12 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ut/utah-harm-reduction-coalition/">Utah Harm Reduction Coalition</a></strong><br></span>					
+					Heber City, UT 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ut/utah-syringe-exchange-network/">Utah Syringe Exchange Network</a></strong><br></span>					
+					Salt Lake City, UT | <em>Utah Syringe Exchange Network</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ut/one-voice-recovery-inc/">One Voice Recovery, Inc. </a></strong><br></span>					
+					Salt Lake City, UT 
+				</div>

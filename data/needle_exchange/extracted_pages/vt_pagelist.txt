@@ -1,0 +1,20 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/vt/st-johnsbury-syringe-exchange-program/">St Johnsbury Syringe Exchange Program</a></strong><br></span>					
+					Burlington, VT | <em>Vermont Cares</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/vt/green-mountain-needle-co-op/">Green Mountain Needle Co-op</a></strong><br></span>					
+					Burlington, VT | <em>Howard Center</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/vt/richmond-rescue-inc/">Richmond Rescue Inc.</a></strong><br></span>					
+					Richmond, VT 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/vt/vermont-cares-syringe-exchange/">Vermont CARES Syringe Exchange</a></strong><br></span>					
+					St Johnsbury, VT 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/vt/good-neighbor-clinic/">Good Neighbor Clinic</a></strong><br></span>					
+					White River Junction, VT | <em>HIV/HCV Resource Center</em>
+				</div>

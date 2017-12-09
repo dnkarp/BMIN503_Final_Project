@@ -1,0 +1,20 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/me/the-next-step-needle-exchange/">The Next Step Needle Exchange</a></strong><br></span>					
+					Augusta, ME | <em>Health Reach Harm Reduction</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/me/eastern-maine-aids-network-sep/">Eastern Maine AIDS Network SEP</a></strong><br></span>					
+					Bangor, ME | <em>Syringe Exchange Program of Eastern Maine AIDS Network</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/me/downeast-aids-network/">Downeast AIDS Network</a></strong><br></span>					
+					Ellsworth, ME 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/me/portland-public-health-needle-exchange/">Portland Public Health Needle Exchange</a></strong><br></span>					
+					Portland, ME 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/me/project-engage/">Project Engage</a></strong><br></span>					
+					Walpole, ME | <em>Choopers Foundation</em>
+				</div>

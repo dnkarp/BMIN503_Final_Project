@@ -1,0 +1,378 @@
+										<a href="https://bing.com/maps/default.aspx?where1=224 North East Avenue, Fayetteville, AR 72701">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=216 West Ruiz Canyon Road, Globe, AZ 85501">Get directions</a>
+		<p class="lead">Kingman, AZ
+		<p class="lead">Phoenix, AZ
+		<p class="lead">Scottsdale, AZ
+										<a href="https://bing.com/maps/default.aspx?where1=375 S Euclid Ave, Tucson, AZ 85719">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=332 S Freeway, Tucson, AZ 85745">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=7490 S Camino De Oeste, Tucson, AZ 85757">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=101 West Coast Rd, Redway, CA 95560">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=908 7th St, Eureka, CA 95501">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=11686 Spruce Grove, Lower Lake, CA 95457">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=12905 C-22 Mapleview St, Lakeside, CA 92040">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=626 N. Alvarado St., Los Angeles, CA 90026">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=9401 Zamora Ave, Los Angeles, CA 90059">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=Burlington &amp; Wilshire Blvd. , Los Angeles, CA 90057">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1625 N. Schrader Blvd., Los Angeles, CA 90028">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=520 N La Brea, Inglewood, CA 90302">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=5326 E Beverly Blvd, Los Angeles, CA 90022">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2401 Lincoln Blvd, Santa Monica, CA 90405">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=4450 Century Blvd., Inglewood, CA 90304">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=604 Rose Ave., Venice, CA 90291">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=7101 Baird Ave, Reseda, CA 91335">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2330 Beverly Blvd., Los Angeles, CA 90057">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2339 Durant Ave, Berkeley, CA 94704">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=Hearst Street and San Pablo Ave., Berkeley, CA 94702">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=3124 Shattuck Ave., Berkeley, CA 94703">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=910 Irwin St, San Rafael, CA 95901">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=148 Clara Ave, Ukiah, CA 95482">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=326 Kimbel St, Modesto, CA 95354">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=340 Church St., Salinas, CA 93601">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=Santa Ana Civic Center Plaza, Santa Ana, CA 92701">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1735 E Bayshore Rd, Redwood City, CA 94063">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2800 Stockton Blvd, Sacramento, CA 95817">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=4433 Florin Road, Sacramento, CA 95832">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=823 Gateway Center, San Diego, CA 92102">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=720 15th St, San Diego, CA 92101">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=3795 31st St, San Diego, CA 92104">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=234 Eddy Street, San Francisco, CA 94102">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=945 Center St., Oakland, CA 94607">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=35th and Peralta, Oakland, CA 94608">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=5th and Brush, Oakland, CA 94607">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=36th and Mlk, Oakland, CA 94609">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1696 Haight Street, San Francisco, CA 94117-0427">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=558 Clayton St., San Francisco, CA 94117">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=730 Polk St, San Francisco, CA 94109">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1035 Market St, San Francisco, CA 94103">Get directions</a>
+		<p class="lead">San Francisco, CA
+										<a href="https://bing.com/maps/default.aspx?where1=149 Turk St., San Francisco, CA 94102">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=330 Ellis Street, San Francisco, CA 94102">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2191 Johnson Ave, San Luis Obispo, CA 93401">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2684 Middlefield Road, Redwood City, CA 94063">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=Anacapa St and E Sola St, Santa Barbara, CA 93101">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2101 Alexian Drive, San Jose, CA 95116">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=660 South Fair Oaks Avenue, Sunnyvale, CA 94086">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=90 Highland Ave, San Martin, CA 95046">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=976 Lenzen Ave, San Jose, CA 95126">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=Story Road &amp; Knox Avenue, San Jose, CA 95122">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=S 2nd &amp; Reed, San Jose, CA 95112">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=7475 Camino Arroyo, Gilroy, CA 95020">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=Curtner Ave and Little Orchard St., San Jose, CA 95125">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1999 Mowry Ave , Fremont, CA 94538">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1080 Emeline Ave, Santa Cruz, CA 95060">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1430 Freedom Blvd. Suite D, Watsonville, CA 95076">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2650 Breslauer Way, Redding, CA 96001">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=873 Second Street, Santa Rosa, CA 95404">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2403 Professional Dr, Santa Rosa, CA 95403">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=3147 Loma Vista Road, Ventura, CA 93003">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=500 B Jefferson Blvd, W Sacramento, CA 95605">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=PO BOX 7522, Oakland, CA 94601">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=E.12th and 23rd Ave, Oakland, CA 94601">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=100th and Pearmain St., Oakland, CA 94603">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2313 San Pablo Ave., Oakland, CA 94612">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=Call 510- 377-9448 for site of the day, Richmond, CA 94801">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2586 Willow Pass Road, Bay Point, CA 94565">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=305 Central Ave., Pittsburg, CA 94565">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1600 Weeot Way, Arcata, CA 95521">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2298 Norris Ave., Crescent City, CA 95531">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1522 Third Street, Eureka, CA 95501">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=933 F St, Fresno, CA 93706">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1100 Block of W Hedges Ave, Fresno, CA 93706">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=330 Campus drive, Handford, CA 93230">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=434 7th Street, Eureka, CA 95502">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=3450 Broadway, Boulder, CO 80304">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1301 S 8th st, Colorado Springs, CO 80905">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=231 E. Colfax Ave., Denver, CO 80203">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=6260 East Colfax Ave, Denver, CO 80220">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=400 Remington, Ft Collins, CO 80524">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=414 Taos Street, #B, Georgetown, CO 80444">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=805 Main Street, Grand Junction, CO 81501">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1068 S. 88th St., Louisville, CO 80027">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1243 E Routt, Pueblo, CO 81004">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1249 E. Routt Avenue, Pueblo, CO 81004">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=752 E Main St, Bridgeport, CT 06608">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=30 West St, Danbury, CT 06810">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1229 Albany Ave, Hartford, CT 06112">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=54 Meadow St, New Haven, CT 06519">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=618 West Avenue, Norwalk, CT 06850">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=PO Box 1169, Willimantic, CT 6226">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1525 7th St NW, Washington, DC 20001">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1414 North Capitol Street NW, Washington, DC 20002">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1309 Rhode Island Ave NE , Washington, DC 20018">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2041 MLK JR Ave SE, Washington, DC 20020">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2713 Lancaster Ave, Wilmington, DE 19805">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=6348 NW 14th Ct, Miami, FL 33147-7904">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1636 NW 7th Ave., Miami, FL 33136">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=233 Mitchell St, Atlanta, GA 30303">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=PO Box 92670, Atlanta, GA 30314-0670">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=677 Ala Moana Blvd, Honolulu, HI 96813">Get directions</a>
+		<p class="lead">Iowa City, IA
+										<a href="https://bing.com/maps/default.aspx?where1=821 West A St, Belleville, IL 62220">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=201 W Kenyon Rd, Champaign, IL 61820">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=3110 W Taylor, Chicago, IL 60612">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=5537 N Broadway, Chicago, IL 60640">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1603 W Taylor St, Chicago, IL 60612-4394">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=309 South Galena Avenue, Dixon, IL 60121">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=561 E Ct, Kankakee, IL 60901">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=109 E Lawrence Ave., Springfield, IL 62704">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=109 E Lawrence Ave, Springfield, IL 62704">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=206 East 9th Street, Anderson, IN 46016">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=Shalom Center, Bloomington, IN 47401">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=118 South Rogers Street, Bloomington, IN 47404">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=118 South Rogers Street, Bloomington, IN 47404">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=People&#39;s Park, Bloomington, IN 47408">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=525 Oxford St., Fort Wayne, IN 46806">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=519 Oxford St., Fort Wayne, IN 46806">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=519 Oxford, Fort Wayne, IN 46803">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=4110 Mellis Dr, Indianapolis, IN 46235">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=629 N. Sixth St., Lafayette, IN 47901">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=203 East Main Street, Richmond, IN 47374">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=200 North 13th Street, Richmond, IN 47374">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=825 Highway 31 North, Scottsburg, IN 47170">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=900 N. Collage Street, Harrodsburg, KY 40330">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=650 Newtown Pike, Lexington, KY 40508">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=400 E Gray St, Louisville, KY 40202">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=130 East Second Street, Maysville, KY 41056">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=456 Main Street South , Mckee, KY 40447">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=730 West Main Street, Morehead, KY 40351">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=210 east Walnut St., Nicholasville, KY 40356">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=119 River Drive, Pikeville, KY 41501">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=283 Goble Street, Prestonburg, KY 41653">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=211 Fruit of the Loom Drive, Jamestown, KY 42629">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=801 Westlake Drive, Columbia, KY 42728">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=45 Roberts St., Somerset, KY 42501">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=376 North Main Street, Straton, KY 40380">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=368 Penny Lane, Williamsburg, KY 40769">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=234 Barns Road , Williamstown, KY 41097">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=400 Professional Avenue, Winchester, KY 40391">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2516 Carter Avenue, Ashland, KY 41101">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2924 Holt St., Ashland, KY 41101">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=261 Hospital Dr, Barbourville, KY 40906">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1109 State street, Bowling Green, KY 42101">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=364 Oddville Ave, Cynthiana, KY 41031">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=448 S 3rd st, Danville, KY 40422">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=329 KY-330, Falmouth, KY 41040">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=100 Glenns Creek Road, Frankfort , KY 40601">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=300 West Main Street, Grayson, KY 41143">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=PO Box 74772, Baton Rouge, LA 70874">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1364 Swan Ave, Baton Rouge, LA 70807">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=507 Frenchmen St, New Orleans, LA 70116">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1001 S. Broad St, New Orleans, LA 70125">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=336 Commercial St, Provincetown, MA 02657">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=774 Albany St., Boston, MA 02118">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=774 Albany St, Boston, MA 02118">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=359 Green St, Cambridge, MA 02139">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=17 Sellers St, Cambridge, MA 02139">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=386 Stanley St., Fall River, MA 02720">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=15A Main St, Holyoke, MA 01040">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=24 Paradise Rd, Ipswich, MA 01938">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=100 willow st, Lynn, MA 01902">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1177 Acushnet Avenue, New Bedford, MA 02746">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2300 Garrison Blvd, Baltimore, MD 21216">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=9 Green St, Augusta, ME 04330">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=34 Summer Street, Bangor, ME 04401">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=25 A Pine St, Ellsworth, ME 04605">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=103 India St, Portland, ME 04101">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=107 Ridge Road, Walpole, ME 04573">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1300 W Fort St, Detroit, MI 48226">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=311 E Court St, Flint, MI 48502">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=343 Atlas Ave SE, Grand Rapids, MI 49506">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=3075 Clark Rd, Ypsilanti, MI 48197">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=53 N Glenwood Avenue, Minneapolis, MN 55403">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=300 E St Germain, St Cloud, MN 56304">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2807 Brookdale Dr North, Brooklyn Park, MN ">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=18 West First st, Duluth, MN 55802">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2833 W 3rd Street, Duluth, MN 55806">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1208 Center Avenue, Moorhead, MN 56560">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1300 Riverside Drive #63, International Falls, MN 56649">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=PO Box 253, Mahnomen, MN 56557">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1213 E Franklin Ave, Minneapolis, MN 55404">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1400 Park Ave, Minneapolis, MN 55404">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=3405 Chicago Ave S, Minneapolis, MN 55407">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=3515 Broadway, Kansas City, MO 64111">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=315 Speedway, Missoula, MT 59802">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1500 W Broadway, Missoula, MT 59802">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=107 H Street, Poplar, MT 59255">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2012 N. Fayetteville St., Asheboro, NC 27203">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=554 Fairview Road, Asheville, NC 28803">Get directions</a>
+		<p class="lead">Durham, NC
+										<a href="https://bing.com/maps/default.aspx?where1=3261 Georgia Road, Franklin, NC 28734">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2300 W. Meadowview rd., Greensboro, NC 27407">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1223 1st ave NW, Hickory, NC 28601">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2301 Medpark Drive, Rocky Mount, NC 27804">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1006 Peachtree St., Rocky Mount, NC 27804">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=74 Roach Dr, Roxboro, NC 27573">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=639 S Green St, Winston-Salem, NC 27101">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=403 Burlington St SE, Mandan, ND 58554">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=45 Kellogg Building, Hanover, NH 03755">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=Central St. And Pearl St., Claremont, NH 03101">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=816 Sunset Ave, Asbury Park, NJ 07712">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=Oasis 32 S Tennessee Ave, Atlantic City, NJ 08401">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=514 Cooper St, Camden, NJ 08102">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=492 Communipaw Ave, Jersey City, NJ 07304">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=393 Central Ave, Newark, NJ 07103">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=207 Broadway, Paterson, NJ 07501">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1500 Idalia Rd, Bernalillo, NM 87004">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1306 W Stevens, Carlsbad, NM 88220">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=317 McCombs, Chaparral, NM 88081">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1216 Cameo St, Clovis, NM 88101">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=620 Coronado St, Espanola, NM 87532">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=30 County Rd 8, Espanola, NM 87532">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=3535 E 30th St, Farmington, NM 87402-8801">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1919 College Dr, Gallup, NM 87301">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=101 E Hill Ave, Gallup, NM 87301">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2025 E Aztec, Gallup, NM 87301">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1608 Isleta Blvd NW, Albuquerque, NM 87501">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1923 N Del Paso, Hobbs, NM 88240">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1320 S Solano Dr, Las Cruces, NM 88001">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=18 Gallegos Rd, Las Vegas, NM 87701">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1000 Main St NW, Los Lunas, NM 87031">Get directions</a>
+		<p class="lead">Los Lunas, NM
+										<a href="https://bing.com/maps/default.aspx?where1=302 N 5th St, Lovington, NM 88260">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1110 Central Route 66, Moriarty, NM 87035">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1513 W Fir, Portales, NM 88130">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=226 E 4th Ave, Raton, NM 87740">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=117 Kansas City Rd, Ruidoso, NM 88345">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=PO Box 25445, Albuquerque, NM 87125-0445">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=605 Letrado, Santa Fe, NM 87505">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1219 Luisa, Santa Fe, NM 87505">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1400 Weimer Rd, Taos, NM 87571">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=POB 449, Tesuque, NM 87574">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=201 E 4th St, Truth or Consequences, NM 87901">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2400 Wellesley dr NE, Albuquerque, NM 87107">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=4100 Silver Ave SE, Albuquerque, NM 87108">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=625 Truman NE, Albuquerque, NM 87110">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2001 Centro Familiar SW, Albuquerque, NM 87501">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1217 1st NW, Albuquerque, NM 87102">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1608 Isleta Blvd NW, Albuquerque, NM 87106">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=7704 2nd St NW, Albuquerque, NM 87107">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=6114 West Charleston Blvd, Las Vegas, NV 89107">Get directions</a>
+		<p class="lead">Reno, NV
+										<a href="https://bing.com/maps/default.aspx?where1=Main Street &amp; Bedell Street, Hempstead, NY 11550">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=501 S Meadow St, Ithaca, NY 14850">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=147-23 Archer Avenue, Jamaica, NY 11432">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=122 Baldwin St, Johnson City, NY 13790">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=42nd Road between 27th &amp; Crescent Street, Long Island City, NY 11101">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=100 Stevens Ave, Mt Vernon, NY 10550">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=33 Essex St, New York, NY 10002">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=566 W 181 St, New York, NY 10033">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=290 Lenox Ave, New York, NY 10027">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=301 W 37th St , New York, NY 10018">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=953 Southern Blvd, Bronx, NY 10459">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=130 Crosby St, New York, NY 10012">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=25 Allen St, New York, NY 10002-5311">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=416 Central Ave, Rochester, NY 14605">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=637 West Genesee Street, Syracuse, NY 13204">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=6207 Woodside Ave , Woodside, NY 11377">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=226 E 144th St, Bronx, NY 10451">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=310 Walton Ave, Bronx, NY 10451">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=80-A Fourth Avenue , Brooklyn, NY 11217">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1204 Broadway, Brooklyn, NY 11221">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1639 Broadway, Brooklyn, NY 11207">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=206 S Elmwood Ave, Buffalo, NY 14201">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=Beach 21st, Far Rockaway, NY 11691">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=601 Veterans Memorial Highway, Hauppauge, NY 11788">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=353 American Way, Weirton, WV 26062">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=100 N Court, New Cumberland, WV 26047">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1010 North 6th St., Steubenville, OH 43952">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=420 Market Avenue,North , Canton, OH 44702-1544">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=200 Sabin Way, Cincinnati, OH 45267">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=12201 Euclid Ave, Cleveland, OH 44106">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1033 North High Street, Columbus, OH 43201">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=524B West Broad Street, Columbus, OH 43215">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=360 Wilson Drive, Xenia, OH 45385">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=600 Pierce Drive , Fairborn, OH 45324">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=675 Price Rd., Newark, OH 43055">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=605 Washington St, Portsmouth, OH 45662-3919">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=635 N. Erie St., Toledo, OH 43604">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1201 Madison Ave (St.Pauls United Methodist Church), Toledo, OH 43604">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=732 Main st E. (Talbot Center), Toledo, OH 43604">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=545 W Umpqua St Ste 1, Roseburg, OR 97471">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=820 Exchange St., Asotria, OR 97103">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=530 NW 27th St, Corvallis, OR 97339-0579">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2577 NE Courtney Dr, Bend, OR 97701">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=412 SW 8th Street, Redmond, OR 97756">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1966 Garden Ave, Eugene, OR 97403">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=132 Northeast B St 23, Grants Pass, OR 97526">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=601 E Sunset Dr, Hermiston, OR 97838">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=140 South Holly Street, Medford, OR 97501">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=3653 SE 34th Ave, Portland, OR 97202-3034">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1132 SW 13th Ave, Portland, OR 97205">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=PO Box 22379, Philadelphia, PA 19110">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=166 W Lehigh Ave, Philadelphia, PA 19133">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=460 Melwood Ave, Pittsburgh, PA 15213">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=557 Broad St, Providence, RI 02907">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=208 Hedge Rose Ct., Travelers Rest, SC 29690">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=520 Sylvan St, Nashville, TN 37206">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=3204 York St., Wichita Falls, TX 76309">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=601 E. Valley Dr., Heber City, UT 84032">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=500 W &amp; 200 So, Salt Lake City, UT 84044">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=288 North 1460 West, Salt Lake City, UT 84116">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=180 E 2100 S, Salt Lake City, UT 84115">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=PO Box 5248, Burlington, VT 05402">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=45 Clarke St, Burlington, VT 05401">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=216 Railroad Street, Richmond, VT 05477">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1091 Hospital Dr , St Johnsbury, VT 05819">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=70 N Main St, White River Junction, VT 05001">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=535 Dock St, Tacoma, WA 98402">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=S 14th St and S G St, Tacoma, WA 98405">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=E 32nd and Portland, Tacoma, WA 98404">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=3629 S D st, Tacoma, WA 98418">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1621 S. Jackson Street, Seattle, WA 98144">Get directions</a>
+		<p class="lead">Seattle, WA
+										<a href="https://bing.com/maps/default.aspx?where1=1415 NE 43rd St, Seattle, WA 98105">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=7101 N. Lombard St, Portland, OR 97203">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=, Everett, WA 98202">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=, Bremerton, WA 98310">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2111 Riverside Dr, Mt. Vernon, WA 98273">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2000 Hospital Dr, Sedro-Woolley, WA 98284">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1101 W College Ave, Spokane, WA 99201">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1000 Cherry St SE, Olympia, WA 98501">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1520 Kelly Place, Walla Walla, WA 99362">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1500 N State St, Bellingham, WA 98225">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1791 NE 1st Ave., Oak Harbor, WA 98277">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=5475 Maxwelton Rd., Langley, WA 98260">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=111 E 3rd st, Port Angeles, WA 98362">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=Public Service Building, Colfax, WA 99111">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=3701 E Fourth Plain Blvd, Vancouver, WA 98661">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=621 Grade st, Kelso, WA 98626">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1114 Pacific Ave, Everett, WA 98201">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2124 4th Ave, Seattle, WA 98121">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1161 11th Ave, Seattle, WA 98122">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=345 6th st, Bremerton, WA 98337">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=210 S. Ruby, Ellensburg, WA 98926">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1057 12th Avenue, Longview , WA 98626">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=621 Grade Street , Kelso, WA 98626">Get directions</a>
+		<p class="lead">Okanogan, WA
+										<a href="https://bing.com/maps/default.aspx?where1=3716 W Wisconsin Ave, Milwaukee, WI 53202">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1337 S Cesar Chavez Dr, Milwaukee, WI 53204">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=, Odanah, WI 54861">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=112 Otter Avenue, Oshkosh, WI 54903">Get directions</a>
+		<p class="lead">Racine, WI
+										<a href="https://bing.com/maps/default.aspx?where1=1105 Grand Ave, Schofield, WI 54476">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1507 Tower Ave, Superior, WI 54880">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=103 E Washington St, Appleton, WI 54911">Get directions</a>
+		<p class="lead">Beloit, WI
+										<a href="https://bing.com/maps/default.aspx?where1=505 Dewey St, Eau Claire, WI 54701">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=445 S Adams St, Green Bay, WI 54301">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1212 57th St, Kenosha, WI 53140">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2519 South Ave, La Crosse, WI 54601">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=121 S Pinckney St, Madison, WI 53703">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=600 Williamson St, Madison, WI 53703">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2705 E Washington Ave, Madison, WI 53704">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1500 Chapline Street, Wheeling, WV 26003">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=2121 Eoff Street, Wheeling, WV 26003">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=Locations vary, Wheeling, WV 26003">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=108 Lee Street East, Charleston, WV 25301">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=489 Washington Avenue, Clarksburg, WV 26301">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=330 W. Main Street, Clarksburg, WV 26301">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=202 Church St., Fayetteville, WV 25840">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=703 7th Avenue, Huntington, WV 25701">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=353 American Way, Weirton, WV 26062">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=100 N Court, New Cumberland, WV 26047">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1010 North 6th St., Steubenville, OH 43952">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=341 Spruce Street, Morgantown, WV 26505-5504">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=702 37th Street, Vienna, WV 26105">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=125 Court Ave, Weston, WV 26452">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=Northwood Health Systems, Wheeling, WV 26003">Get directions</a>
+										<a href="https://bing.com/maps/default.aspx?where1=1500 Chapline Street, Wheeling, WV 26003">Get directions</a>

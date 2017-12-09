@@ -1,0 +1,4 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ar/heal/">HEAL</a></strong><br></span>					
+					Fayetteville, AR 
+				</div>

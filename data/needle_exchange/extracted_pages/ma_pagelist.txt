@@ -1,0 +1,40 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ma/ahope/">AHOPE</a></strong><br></span>					
+					Boston, MA | <em>Boston Public Health Commision</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ma/boston-needle-exchange-ahope/">Boston Needle Exchange AHOPE</a></strong><br></span>					
+					Boston, MA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ma/aids-action-committee/">AIDS Action Committee</a></strong><br></span>					
+					Cambridge, MA | <em>Cambridge Cares About AIDS</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ma/cambridge-needle-exchange/">Cambridge Needle Exchange</a></strong><br></span>					
+					Cambridge, MA | <em>Cambridge Cares About AIDS</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ma/project-aware/">Project Aware</a></strong><br></span>					
+					Fall River, MA | <em>SSTAR</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ma/tapestry-health-needle-exchange/">Tapestry Health Needle Exchange</a></strong><br></span>					
+					Holyoke, MA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ma/love-and-safety/">Love and Safety</a></strong><br></span>					
+					Ipswich, MA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ma/cab-health-recovery-services/">CAB Health &amp; Recovery Services</a></strong><br></span>					
+					Lynn, MA | <em>Healthy Streets Outreach Program</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ma/seven-hills-ssp/">Seven Hills SSP</a></strong><br></span>					
+					New Bedford, MA 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/ma/provincetown-needle-exchange/">Provincetown Needle Exchange</a></strong><br></span>					
+					Provincetown, MA | <em>AIDS Support Group Cape Cod</em>
+				</div>

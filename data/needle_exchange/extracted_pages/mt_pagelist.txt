@@ -1,0 +1,12 @@
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/mt/mija/">MIJA</a></strong><br></span>					
+					Missoula, MT | <em>C/O Western Montana Community Center</em>
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/mt/open-aid-alliance/">Open Aid Alliance</a></strong><br></span>					
+					Missoula, MT 
+				</div>
+				<div class="program-entry">
+					<span class="lead"><strong><a href="/directory/mt/fort-peck-harm-reduction/">Fort Peck Harm Reduction</a></strong><br></span>					
+					Poplar, MT 
+				</div>
