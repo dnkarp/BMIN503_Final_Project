@@ -1,0 +1,878 @@
+---
+title: "FINAL PROJECT (BMIN503/EPID60) /// Preliminary_Results"
+author: "David Karp (email: dkarp@upenn.edu; github: [dnkarp](https://github.com/dnkarp))"
+date: "12/06/2017"
+output:
+  html_document:
+    toc: false 
+    depth: 3 
+    theme: paper 
+    highlight: tango
+---
+
+```{r setup, echo=FALSE, cache=FALSE}
+options(width = 400)
+require("knitr")
+opts_chunk$set(fig.width=7, fig.height=4.1) 
+opts_knit$set(root.dir = "~/Dropbox/courses/fall-2017/EPID-600/final_project/BMIN503_Final_Project")
+
+```  
+
+***
+
+- IN-CLASS PRESENTATION: 11/30/17
+- FINAL REPORT: 12/08/17
+
+> GEOGRAPHY OF THE US OPIOID CRISIS: SPACE-TIME ANALYSIS USING R
+
+##PART 1: DESCRIPTION
+
++[1a]Set-up Environment
+```{r set environment, eval=FALSE}  
+###--ENVIRONMENT--###----
+
+#RData files for saving/restoring working environments 
+#save.image("prelim_results--120617.RData")
+#load("prelim_results--120617.RData")
+
+```
+
++[1b]Load Libraries
+```{r load libraries, eval=FALSE echo=FALSE} 
+###--LIBRARIES--###----
+
+require("rgdal")
+require("maptools")
+require("ggplot2")
+require("plyr")
+require("dplyr")
+require("tigris")
+require("data.table")
+require("tmap")
+require("tableone")
+require("spdep")
+require("maptools")
+require("classInt")
+require("gstat")
+require("randomForest")
+require("gplots")
+require("RColorBrewer")
+
+```
+
++[1c]Pre-process Data
+```{r pre-process data, eval=FALSE}
+###--LOAD/CLEAN OUTCOMES (MCOD) DATA--###----
+
+#source("data/multiple_cause_of_death/mcod.R")
+
+```
+
++[1d]Load Data
+```{r load data, eval=FALSE}
+###--LOAD OUTCOMES (MCOD) DATA--###----
+
+#load cleaned data, incident level multiple casue of death data
+#mcod.allyears <- readRDS(file="data/multiple_cause_of_death/mcod_95-15.RDa")
+
+#NOTE: Incident level data cannot be pushed to Github's servers, various portion of data are commented out where these data are used
+
+```
+
++[1e]Generate Descriptive Statistics
+```{r descriptive stats, eval=TRUE}
+###--TIME TRENDS: LINE PLOTS--###----
+
+#copy as working data set
+#dt.allyears <- mcod.allyears
+
+#review variable names
+#names(dt.allyears)
+
+#group by year and demographics
+#dat.age <- dt.allyears %>% group_by(year, age.bins) %>%
+#  summarise_at(.vars = c("drug.all", "drug.rx","drug.opioid","drug.heroin"), funs(sum))
+#saveRDS(dat.age,file="data/multiple_cause_of_death/dat_age.RDa")
+dat.age <- readRDS(file="data/multiple_cause_of_death/dat_age.RDa")
+
+#dat.sex <- dt.allyears %>% group_by(year, sex) %>%
+#  summarise_at(.vars = c("drug.all", "drug.rx","drug.opioid","drug.heroin"), funs(sum))
+#saveRDS(dat.sex,file="data/multiple_cause_of_death/dat_sex.RDa")
+dat.sex <- readRDS(file="data/multiple_cause_of_death/dat_sex.RDa")
+
+#dat.race <- dt.allyears %>% group_by(year, race) %>%
+#  summarise_at(.vars = c("drug.all", "drug.rx","drug.opioid","drug.heroin"), funs(sum))
+#saveRDS(dat.race,file="data/multiple_cause_of_death/dat_race.RDa")
+dat.race <- readRDS(file="data/multiple_cause_of_death/dat_race.RDa")
+
+#dat.heroin <- dt.allyears[drug.opioid==1 | drug.heroin==1] %>% group_by(year, drug.heroin) %>%
+#  summarise_at(.vars = c("drug.all"), funs(sum)) #generate binary of heroin v. opioid (heroin=1, opioid=0)
+#saveRDS(dat.heroin,file="data/multiple_cause_of_death/dat_heroin.RDa")
+dat.heroin <- readRDS(file="data/multiple_cause_of_death/dat_heroin.RDa")
+
+#generate exhibits 1-4 // OPTIONAL print to file directory ("./results")
+ggplot(dat.age, aes(x=year, y=drug.all, group=age.bins)) +
+  geom_line(aes(color=age.bins))+
+  geom_point(aes(color=age.bins))
+#dev.print(png, file = "results/EX1-drug-all-year-by-age.png", width = 500, height = 300) #print to file
+
+ggplot(dat.sex, aes(x=year, y=drug.all, group=sex)) +
+  geom_line(aes(color=sex))+
+  geom_point(aes(color=sex))
+#dev.print(png, file = "results/EX2-drug-all-year-by-sex.png", width = 500, height = 300) #print to file
+
+ggplot(dat.race, aes(x=year, y=drug.all, group=race)) +
+  geom_line(aes(color=race))+
+  geom_point(aes(color=race))
+#dev.print(png, file = "results/EX3-drug-all-year-by-race.png", width = 500, height = 300) #print to file
+
+ggplot(dat.heroin, aes(x=year, y=drug.all, group=drug.heroin)) +
+  geom_line(aes(color=drug.heroin))+
+  geom_point(aes(color=drug.heroin))
+#dev.print(png, file = "results/EX4-drug-all-year-by-heroin.png", width = 500, height = 300) #print to file
+
+
+```
+
++[1e]Generate Descriptive Statistics
+```{r descriptive stats, eval=TRUE}
+###--SUMMARY OF POPULATION: TABLE ONE--###----
+
+#dat <- dt.allyears[(dt.allyears$drug.heroin == 1 | dt.allyears$drug.opioid == 1),] %>% 
+#  mutate(heroin = ifelse(!(drug.heroin == 1 | drug.opioid == 1), NA, drug.heroin))
+
+#tableOne.year <- CreateTableOne(strata = "year", vars = c("heroin","sex","race","hispanic","age","age.bins","placeofdeath"), data = dat, factorVars = c("heroin"))
+
+#tableOne.heroin <- CreateTableOne(strata = "heroin", vars = c("year","sex","race","hispanic","age.bins","placeofdeath"), data = dat)
+
+
+#tableOne.year #print table
+#tableOne.heroin #print table
+
+
+```
+
++[1f]Generate Age-adjusted Rates by Geography
+```{r pre-process data, eval=FALSE}
+###--GENERATE AGE-ADJSUTED OUTCOMES (RATES BY GEOGRAPHY)--###----
+
+#source("data/censusapi/pull_census_vars_120417.R")
+#source("data/multiple_cause_of_death/age_adjust_rates.R")
+
+```
+
++[1g]Load Age-adjusted Data
+```{r load data, eval=FALSE}
+###--IMPORT AGE-ADJUSTED OUTCOMES DATA--###----
+
+#county
+#mcod.cnty <- readRDS(file="../local_data/multiple_cause_of_death/aa.mcod.cnty.allyrs.RDa") #load unsuppressed, all years
+mcod.cnty <- readRDS(file="data/multiple_cause_of_death/aa_mcod_cnty_2015_suppressed.RDa")
+mcod.cnty <- mcod.cnty %>% mutate(stateFIPS=substr(geo,1,2)) %>% mutate(countyFIPS=geo)
+                                                                       
+#state
+#mcod.st <- readRDS(file="../local_data/multiple_cause_of_death/aa.mcod.st.allyrs.RDa") #load unsuppressed, all years
+mcod.st <- readRDS(file="data/multiple_cause_of_death/aa_mcod_st_2015_suppressed.RDa")
+mcod.st <- mcod.st %>% mutate(stateFIPS=geo)
+
+#national
+#mcod.ntl <- readRDS(file="data/multiple_cause_of_death/aa.mcod.ntl.allyrs.RDa")
+#mcod.ntl <- mcod.ntl %>% mutate(geo=1)
+
+mkwide <- function(x){
+  d<-setDT(x[,1:10])
+  vars <- names(d[3:10])
+  return(dcast(d, geo ~ substr(year,3,4), value.var = vars) %>% select(-starts_with("geo.1"),-starts_with("year.1")))
+
+}
+
+#make wide formats
+mcod.cnty.wide <- mkwide(mcod.cnty) %>% mutate(stateFIPS=substr(geo,1,2)) %>% mutate(countyFIPS=geo) %>% mutate(GEOID=geo)
+mcod.st.wide <- mkwide(mcod.st) %>% mutate(stateFIPS=geo) %>% mutate(GEOID=geo)
+#mcod.ntl.wide <- mkwide(mcod.ntl)
+
+#percent change (for future iterations with multiple year format)
+#mcod.st.wide[, all.pch9515 := (100*round((all_15-all_95)/all_95,3))]
+#mcod.st.wide[, rx.pch9515 := (100*round((rx_15-rx_95)/rx_95,3))]
+#mcod.st.wide[, opioid.pch9515 := (100*round((opioid_15-opioid_95)/opioid_95,3))]
+#mcod.st.wide[, heroin.pch9515 := (100*round((heroin_15-heroin_95)/heroin_95,3))]
+
+#mcod.cnty.wide[, all.pch9515 := (100*round((all_15-all_95)/all_95,3))]
+#mcod.cnty.wide[, rx.pch9515 := (100*round((rx_15-rx_95)/rx_95,3))]
+#mcod.cnty.wide[, opioid.pch9515 := (100*round((opioid_15-opioid_95)/opioid_95,3))]
+#mcod.cnty.wide[, heroin.pch9515 := (100*round((heroin_15-heroin_95)/heroin_95,3))]
+
+
+```
+
++[1h]Load Geographic Data
+```{r load data, eval=FALSE}
+###--LOAD GEOGRAPHIC DATA--###----
+
+#source("data/geography/load_geographies.R") #load source geographies from tigris
+
+#load county geographies
+geo.cnty <- readRDS(file="data/geography/UScountySPDF.RDa") #loads all counties
+
+#load state geographies
+geo.st <- readRDS(file="data/geography/USstateSPDF.RDa") #load all states
+
+#specifiy codes for outlying territories & lower 48
+territories <- c("60","64","66","68","69","70","72","74","78")
+AK_and_HI <- c("02","15")
+
+#create place name
+USPSlist<-geo.st@data[,c("STUSPS","GEOID")]
+geo.cnty<-merge(geo.cnty,USPSlist,by.x="STATEFP",by.y="GEOID",x.all=T)
+geo.cnty@data <- geo.cnty@data %>% mutate(NAME=paste(NAMELSAD,STUSPS,sep=", "))
+
+```
+
++[1i]Merge Data
+```{r merge data, eval=TRUE}
+###--MERGE GEO+OUTCOMES DATA--###----
+
+#specify subsets by year
+mcod.cnty15 <- mcod.cnty[mcod.cnty$year=="2015",] %>% mutate(GEOID=countyFIPS) #subset county outcomes 2015 only
+mcod.st15 <- mcod.st[mcod.st$year=="2015",] %>% mutate(GEOID=stateFIPS) #subset state outcomes 2015 only
+
+#to specify geogrpahic subsets
+#geo.st.sub <- geo.st[geo.st$STUSPS %in% c("PA","NY","NJ","MD","WV","OH","DE","VA","CT"),] #specify a subset
+
+## (for SpatialDataFrames) use geo_join
+#state join
+geo.st <- geo.st[!(geo.st$STATEFP %in% c(AK_and_HI, territories)),] #exclude territories,AK,HI
+geo.st.mcod <- geo_join(geo.st, mcod.st.wide, by="GEOID", how="left") #join outcomes data to state geographies
+
+#county join
+geo.cnty <- geo.cnty[!(geo.cnty$STATEFP %in% c(AK_and_HI, territories)),] #exclude territories,AK,HI 
+geo.cnty.mcod <- geo_join(geo.cnty, mcod.cnty.wide, by="GEOID", how="left") #join outcomes data to county geographies
+
+#names(geo.cnty.mcod)
+#geo.cnty.mcod@data[is.na(geo.cnty.mcod$all_15),]$all_15 <- 0
+#names(geo.st.mcod)
+#geo.st.mcod@data[is.na(geo.st.mcod$all_15),]$all_15 <- 0
+
+```
+
++[1j]Get summary statistics
+```{r descriptive stats, eval=TRUE}
+###--GEOGRAPHIC VARIATION: HISTOGRAMS + BOX PLOTS--###----
+
+#//TODO//#
+#stratify by drug
+#compare variation by year
+
+#get summary distribution
+summary(mcod.st15$all)
+
+#plot histograms (state level outcomes)
+ggplot(data=mcod.st15, aes(x=all)) +
+    geom_histogram(binwidth = 1) #all overdose, unadjusted
+ggplot(data=mcod.st15, aes(x=all.aa)) +
+    geom_histogram(binwidth = 1) #all overdose, adjusted
+
+#get summary distribution
+summary(mcod.cnty15$all)
+
+#plot histograms (county level outcomes)
+ggplot(data=mcod.cnty15, aes(x=all)) +
+    geom_histogram(binwidth = .1) #all overdose, unadjusted
+ggplot(data=mcod.cnty15, aes(x=all.aa)) +
+    geom_histogram(binwidth = .1) #all overdose, adjusted
+
+```
+
++[1k]Mapping Set up (Using tmap Package)
+```{r mapping, eval=TRUE, cache=TRUE}
+###--GEOGRAPHIC VARIATION: CHOROPLETH MAPS--###----
+
+#//TODO//#
+#compare adjustment
+#stratify by drug
+#compare by year
+
+#define map function
+mkmap <- function(x,x1,y,z){
+  #[params --> x==variable to map; x1==option for adjusted; y==year; z==1 for state, 2 for county level]
+  if(z==1){
+    g<-"State"
+    d<-geo.st.mcod
+  } else{
+    g<-"County"
+    d<-geo.cnty.mcod
+  }
+  if(x1==1){
+    a<-".aa"
+    b<-"Age-adjusted"
+  } else {
+    a<-""
+    b<-"Unadjusted"
+  }
+  v<-paste0(x,a,"_",substr(y,3,4))
+  tm_shape(d) +
+  tm_fill(v, style = "quantile", n = 7, palette = "Greens", 
+          title = paste0(b," Rate/1k of Drug-related Deaths(",x,"), by ",g," (",y,")")) + 
+  tm_legend(bg.color = "white", bg.alpha = 0.6) + 
+  tm_style_gray() #state map, unadjusted, all drugs
+}
+
+mkmap("all",1,"2015",1) #state, 2015, all, age adjusted
+#mkmap("all",0,"2015",1) #state, 2015, all,unadjusted
+#dev.print(png, file = "EX7-drug-all-by-state-2015.png", width = 500, height = 300) #print to file
+
+#mkmap("rx",1,"2015",1) #state, 2015, rx, age adjusted
+#mkmap("rx",0,"2015",1) #state, 2015, rx, unadjusted
+#mkmap("opioid",1,"2015",1) #state, 2015, opioid, age adjusted
+#mkmap("opioid",0,"2015",1) #state, 2015, opioid, unadjusted
+#mkmap("heroin",1,"2015",1) #state, 2015, heroin, age adjusted
+#mkmap("heroin",0,"2015",1) #state, 2015, heroin, unadjusted
+
+mkmap("all",1,"2015",2) #county, 2015, all, adjusted
+#mkmap("all",0,"2015",2) #county, 2015, all, unadjusted
+#dev.print(png, file = "EX8-drug-all-by-county-2015.png", width = 500, height = 300) #print to file
+
+#mkmap("opioid",0,"2015",2) #county, 2015, opioid, unadjusted
+#mkmap("heroin",0,"2015",2) #county, 2015, heroin, unadjusted
+
+#compare over time (for future iterations with multiple year format)
+#mkmap("opioid",0,"2015",2) #county, 2015, opioid, unadjusted
+#mkmap("opioid",0,"2010",2) #county, 2010, opioid, unadjusted
+#mkmap("opioid",0,"2005",2) #county, 2005, opioid, unadjusted
+#mkmap("opioid",0,"2000",2) #county, 2000, opioid, unadjusted
+#mkmap("opioid",0,"1995",2) #county, 1995, opioid, unadjusted
+
+```
+
+##PART 2: DISCOVERY
++[2a]Set-up Spatial Analysis (Moran's I)
+```{r spatial analysis, eval=TRUE}
+###--GEOGRAPHIC VARIATION: TESTING SPATIAL AUTOCORRELATION--###----
+
+#RESOURCE: [Moran's I](http://rspatial.org/analysis/rst/3-spauto.html#compute-moran-s-i)
+
+#define global spatial autocorrelation test----
+globalSA <- function(x,x1,x2,x3){
+  #[params --> x==variable to map; x1==option for adjusted; x2==year; x3==1 for state, 2 for county level]
+  if(x3==1){
+    g<-"State"
+    d<-geo.st.mcod
+  } else{
+    g<-"County"
+    d<-geo.cnty.mcod
+  }
+  if(x1==1){
+    a<-".aa"
+    b<-"Age-adjusted"
+  } else {
+    a<-""
+    b<-"Unadjusted"
+  }
+  v<-paste0("d$",x,a,"_",substr(x2,3,4))
+  
+  #set up weight matrix
+  w <- poly2nb(d, row.names=d$NAME)
+  wm <- nb2mat(w, style='B')
+  
+  #Get ‘y'
+  assign("y",eval(parse(text=v)))
+  
+  #row standardisation of the weights matrix:
+  rwm <- mat2listw(wm, style='W')
+  
+  # Checking if rows add up to 1
+  mat <- listw2mat(rwm)
+  apply(mat, 1, sum)[1:15]
+  moran.plot(y, rwm)
+  
+  #compute Moran’s I and do a significance test
+  ww <-  nb2listw(w, style='B')
+
+  #test for significance. 
+  moran.test(y, ww, randomisation=FALSE)
+  
+  #Monte Carlo simulation
+  moran.mc(y, ww, nsim=99)
+
+}
+
+#compare by drug type, state level, 2015----
+globalSA("all",1,"2015",1)
+#globalSA("rx",1,"2015",1)
+#globalSA("opioid",1,"2015",1)
+#globalSA("heroin",1,"2015",1)
+
+#compare adjusted/unadjusted----
+#globalSA("all",1,"2015",1)
+#globalSA("all",0,"2015",1)
+
+#run for county level----
+globalSA("all",0,"2015",2)
+
+#compare over time (for future iterations with multiple year format)----
+#globalSA("all",1,"2010",1)
+#globalSA("all",1,"2005",1)
+#globalSA("all",1,"2000",1)
+#globalSA("all",1,"1995",1)
+
+
+```
+
++[2b]Spatial Analysis (Getis Gi)
+```{r spatial analysis, eval=TRUE}
+###--GEOGRAPHIC VARIATION: TESTING SPATIAL AUTOCORRELATION--###----
+
+#RESOURCE: [Local Statistics](http://rspatial.org/rosu/rst/Chapter8.html?highlight=local)
+
+#//TODO//#----
+#Compare alternative tests
+
+```
+
++[2c]Set-up Spatial Analysis (LISA)
+```{r spatial analysis, eval=TRUE}
+###--GEOGRAPHIC VARIATION: TESTING SPATIAL AUTOCORRELATION--###----
+
+#RESOURCE: [Tutorial](http://rstudio-pubs-static.s3.amazonaws.com/4938_b5fc230d586c48b291627ff6ea484d2e.html)
+
+#define local spatial autocorrelation test function----
+localSA <- function(x,x1,x2,x3){
+  #[params --> x==variable to map; x1==option for adjusted; x2==year; x3==1 for state, 2 for county level]
+  if(x3==1){
+    g<-"State"
+    d<-geo.st.mcod
+  } else{
+    g<-"County"
+    d<-geo.cnty.mcod
+  }
+  if(x1==1){
+    a<-".aa"
+    b<-"Age-adjusted"
+  } else {
+    a<-""
+    b<-"Unadjusted"
+  }
+  v<-paste0("d$",x,a,"_",substr(x2,3,4))
+ 
+  print(paste(x2,x,b,g,sep=" "))
+
+  #set up weight matrix
+  w <- poly2nb(d, row.names=d$NAME)
+  wm <- nb2mat(w, style='B')
+  
+  #Get ‘y'
+  assign("y",eval(parse(text=v)))
+  
+  # create row-standardized Queens contiguity weights matrix
+  dt_nbq <- poly2nb(d)  #queen's neighborhood
+  dt_nbq_w <- nb2listw(dt_nbq)
+  locm <- localmoran(y, dt_nbq_w)  #calculate the local moran's I
+  print(summary(locm))
+  
+  # manually make a moran plot standarize variables
+  d$s <- scale(y)  #save to a new column
+  
+  # create a lagged variable
+  d$lag_s <- lag.listw(dt_nbq_w, d$s)
+  
+  print(summary(d$s))
+  
+  print(summary(d$lag_s))
+  
+  plot(x = d$s, y = dt$lag_s, main = " Moran Scatterplot ")
+  abline(h = 0, v = 0)
+  abline(lm(d$lag_s ~ d$s), lty = 3, lwd = 4, col = "red")
+  
+  # check out the outliers click on one or twon and then hit escape (or
+  # click finish)
+  identify(d$s, d$lag_s, d$NAME, cex = 0.8)
+  
+  # identify the moran plot quadrant for each observation
+  d$quad_sig <- NA
+  d@data[(d$s >= 0 & d$lag_s >= 0) & (locm[, 5] <= 0.05), "quad_sig"] <- 1
+  d@data[(d$s <= 0 & d$lag_s <= 0) & (locm[, 5] <= 0.05), "quad_sig"] <- 2
+  d@data[(d$s >= 0 & d$lag_s <= 0) & (locm[, 5] <= 0.05), "quad_sig"] <- 3
+  d@data[(d$s >= 0 & d$lag_s <= 0) & (locm[, 5] <= 0.05), "quad_sig"] <- 4
+  d@data[(locm[, 5] > 0.05), "quad_sig"] <- 5  
+  #ASSIGN A 5 TO ALL NON-SIGNIFICANT OBSERVATIONS
+  
+  # Set the breaks for the thematic map classes
+  breaks <- seq(1, 5, 1)
+  
+  # Set the corresponding labels for the thematic map classes
+  labels <- c("High-High", "Low-Low", "High-Low", "Low-High", "Not Signif.")
+  
+  # see ?findInterval - This is necessary for making a map
+  np <- findInterval(d$quad_sig, breaks)
+  
+  # Assign colors to each map class
+  colors <- c("red", "blue", "lightpink", "skyblue2", "white")
+  plot(d, col = colors[np])
+  mtext("Local Moran's I", cex = 1.5, side = 3, line = 1)
+  legend("bottomleft", legend = labels, fill = colors, bty = "n")
+  
+  var<-paste0(x,a,"_",substr(x2,3,4))
+  assign(paste0(x2,x,a,g),d@data[,c("geo",var,"s","lag_s","quad_sig")], envir = .GlobalEnv)
+  
+}
+
+#compare by drug type, state level, 2015----
+localSA("all",1,"2015",1)
+#localSA("rx",1,"2015",1)
+#localSA("opioid",1,"2015",1)
+#localSA("heroin",1,"2015",1)
+
+#compare adjusted/unadjusted----
+#localSA("all",1,"2015",1)
+#localSA("all",0,"2015",1)
+
+#run for county level----
+#localSA("all",0,"2015",2)
+#localSA("rx",0,"2015",2)
+#localSA("opioid",0,"2015",2)
+#localSA("heroin",0,"2015",2)
+
+#compare over time (for future iterations with multiple year format)----
+#localSA("all",1,"2010",1)
+#localSA("all",1,"2005",1)
+#localSA("all",1,"2000",1)
+#localSA("all",1,"1995",1)
+
+```
+
++[2d]Cluster Identification
+```{r unsupervisedmachine learning , eval=TRUE}
+###--CLUSTER IDENTIFICATION (UNSUPERVISED METHODS): K-means--###----
+
+#//TODO//#----
+#Test a k-means algorithm of outcomes, by county and year to look for clusters in time/space
+
+
+```
+
+##PART 3: ESTIMATION
+
++[3a]Import data
+```{r load data, eval=TRUE}
+###--IMPORT DATA--###----
+
+#building permits----
+#source("data/building_permits/building_permits.R")
+buildingpermits<-readRDS(file="data/building_permits/buildingpermits.RDa")
+
+#crime----
+#source("data/crime/crime.R")
+crime<-readRDS(file="data/crime/crime.Rda")
+
+#demographics----
+#source("data/demographics/demographics")
+demographics<-readRDS(file="data/demographics/demographics.Rda")
+
+#built environment----
+#source("data/built_environment/built_environment.R")
+ruralurbancodes2013<-readRDS(file="data/built_environment/ruralurbancodes2013.RDa")
+
+#economic----
+#to pull from US Census Bureau (https://www.census.gov/economic-indicators)
+
+#election results----
+#source("data/election_results/election_results.R")
+election_results<-readRDS(file="data/election_results/election_results.Rda")
+                        
+#gdp----
+#source("data/gdp/gdp.R")
+per_captia_gdp_by_state_multi_year<-readRDS(file="data/gdp/per_captia_gdp_by_state_multi_year.Rda")
+per_industry_contribution_to_state_gdp_multi_year<-readRDS(file="data/gdp/per_industry_contribution_to_state_gdp_multi_year.Rda")
+
+#health behavior----
+#to be cleaned -- see ("data/health_behavior")
+
+#healthcare----
+#source("data/healthcare/healthcare.R")
+healthcare<-readRDS(file="data/healthcare/healthcare.RDa")
+
+#homelessness----
+#to be cleaned -- see ("data/homeless/homeless.R")
+
+#hospital compare----
+#to be cleaned -- see ("data/hospital_compare")
+
+#jobs----
+#to be cleaned -- see ("data/jobs/jobs.R")
+
+#marijuana----
+#to be cleaned -- see ("data/marijuana")
+
+#mobility inequality----
+#to be cleaned -- see ("data/mobility_inequality")
+
+#mortality----
+#source("data/mortality/mortality.R")
+mortality<-readRDS("data/mortality/mortality.RDa")
+
+#needle exchange----
+#to be cleaned -- see ("data/needle_exchange")
+
+#opioid prescription rates----
+#source("data/opioid_prescription_rates/rx_rates.R")
+rx_rates<-readRDS("data/opioid_prescription_rates/rx_rates.RDa")
+  
+#public health----
+#to be cleaned -- see ("data/needle_exchange")
+
+#business analyst----
+#to be cleaned -- see ("data/business_analyst/business_analyst.R")
+
+```
+
++[3b]Build Analytic Dataset
+```{r merge data, eval=TRUE}
+###--MERGE DATA--###----
+#source("data/hotspots/hotspots.R")
+hotspots.vars <- readRDS(file="data/hotspots/hotspots.suppressed.Rda")
+
+#specify variables of interest
+names(hotspots.vars)
+
+#geography
+vars.geogr<-c("geo","NAME","STUSPS","state.region")
+
+#outcomes
+vars.outco<-c("all.rt","rx.rt","opioid.rt","heroin.rt")
+vars.hotsp<-c("all.hh","rx.hh","opioid.hh","heroin.hh","hotspot_any","hotspot_heroin")
+
+#gen pop demographics
+vars.demog<-c("female.2012.pct","age.55over.2012","age.mdn.2012","race.wht.2012","ethnicity.2012")
+
+#gen pop education and employment
+vars.educa<-c("edu.male.nohs.2012.pct","edu.hsdropout.2012.pct","unemployment.male.2012.pct")
+
+#gen pop socio economic
+vars.socio<-c("hhinc.mdn.2012","pov.lt2x.2012.pct","households.singlefemale.2012")
+
+#healthcare
+vars.health<-c("healthcare.emdepts.2012.dens","healthcare.trauma.2012.dens","healthcare.adm.2012.rt","healthcare.edvisits.2012.rt","healthcare.hosp.highvol.2012.pct","healthcare.mds.em.2012.rt","healthcare.mds.rsrch.2012.rt")
+
+#health policy
+vars.hplcy<-c("insurance.2012.pct","medicaid_expansion")
+
+#public health
+vars.pubhlth<-c("homcide.firearm.2012.rt","suicide.2012.rt" )
+
+#crime
+vars.crime<-c("crime.2012.rt","murder.2012.rt","robbery.2012.rt")
+
+#built envt
+vars.benvt<-c("popdens.2012","vacancy.2012.pct","urbanrural","permits.5yrchng")
+
+#politics
+vars.politics<-c("flip0816","dem2rep16")
+
+#economy
+vars.econom<-c("foreign.since2000.2012.pctchng","gdp.10yr.growth","gdp15.mxind","gdp10y.chgind")
+
+```
+
++[3c]Descriptive Analysis
+```{r plot data, eval=TRUE}
+###--PLOT DATA--###----
+
+#cat vars > bar charts
+d<-hotspots.vars
+ggplot(data=d, aes(x=ifelse(hotspot_any>0,1,0))) + 
+    geom_bar()
+
+ggplot(data=d[hotspot_any>0,], aes(x=hotspot_heroin)) + 
+    geom_bar()
+
+ggplot(data=d, aes(x=urbanrural)) +
+    geom_bar()
+
+#cont vars > histograms
+ggplot(data=d[all.rt>0,], aes(x=all.rt)) +
+    geom_histogram(binwidth = .1)
+
+
+ggplot(d[all.rt>0,], aes(all.rt, fill = state.region)) + geom_density(alpha = 0.2)
+ggplot(d[rx.rt>0,], aes(rx.rt, fill = state.region)) + geom_density(alpha = 0.2)
+ggplot(d[heroin.rt>0,], aes(heroin.rt, fill = state.region)) + geom_density(alpha = 0.2)
+ggplot(d[opioid.rt>0,], aes(opioid.rt, fill = state.region)) + geom_density(alpha = 0.2)
+
+ggplot(d[hotspot_heroin>0,], aes(age.mdn.2012, fill = factor(hotspot_heroin))) + geom_density(alpha = 0.2)
+
+ggplot(d[rx.rt>0,], aes(rx.rt, fill = state.region)) + geom_density(alpha = 0.2)
+ggplot(d[heroin.rt>0,], aes(heroin.rt, fill = state.region)) + geom_density(alpha = 0.2)
+ggplot(d, aes(all.rt, fill = medicaid_expansion)) + geom_density(alpha = 0.2)
+
+ggplot(d, aes(hhinc.mdn.2012, fill = as.factor(hotspot_heroin))) + geom_density(alpha = 0.2)
+ggplot(d, aes(gdp.10yr.growth, fill = as.factor(gdp15.mxind))) + geom_density(alpha = 0.2)
+
+#bin/cat x bin/cat vars >> bar charts
+
+#Proportions of each "fill" category within each x-axis category:
+ggplot(data=d, aes(x=hotspot_heroin, fill=urbanrural)) +
+    geom_bar(position="fill")
+
+#Counts for each "fill" category side-by-side for each x-axis category:
+ggplot(data=d, aes(x=hotspot_any, fill=state.region)) +
+    geom_bar(position="dodge")
+
+#cont var x bin/cat >> box plots
+ggplot(data=d, aes(x=factor(state.region), y=all.rt)) +
+    geom_boxplot()
+
+#Two cont vars >> scatter plots
+ggplot(data=d, aes(x=popdens.2012, y=heroin.rt, colour=factor(hotspot_heroin))) +
+    geom_point()
+
+```
+
++[3a]Regression Analysis
+```{r linear models, eval=TRUE}
+###--LINEAR REGRESSION--###----
+
+#subset only counties with at least 1 drug death
+d <- d[all.rt>0,]
+
+#define batch plotting functions
+batchplot <- function(x1,y1){
+  lapply(x1,function(a){
+  assign("x",eval(parse(text=paste0("d$",a))))
+  assign("y",eval(parse(text=paste0("d$",y1))))
+  ggplot(d, aes(x=x, y=y)) + xlab(a) + ylab(y1) +
+    geom_point(color="blue")
+  }
+)
+}
+
+batchbox <- function(x1,y1){
+  lapply(x1,function(a){
+  assign("x",eval(parse(text=paste0("d$",a))))
+  assign("y",eval(parse(text=paste0("d$",y1))))
+  ggplot(d, aes(x=x, y=y)) + xlab(a) + ylab(y1) +
+    geom_boxplot(color="blue")
+  }
+)
+}
+
+#plot death rates x demographics
+batchplot(vars.demog,"all.rt")
+
+#plot death rates x education/employment
+batchplot(vars.educa,"all.rt")
+
+#plot death rates x socioeocnomic
+batchplot(vars.socio,"all.rt")
+
+#plot death rates x healthcare
+batchplot(vars.health,"all.rt")
+
+#plot death rates x insurance 
+batchplot(vars.hplcy[1],"all.rt")
+
+#plot death rates x medicaid expansion
+batchbox(vars.hplcy[2],"all.rt")
+
+#plot death rates x homicide/suicide
+batchplot(vars.pubhlth,"all.rt")
+
+#crime
+batchplot(vars.crime,"all.rt")
+
+#built envt
+batchplot(vars.benvt[c(1,2,4)],"all.rt")
+batchbox(vars.benvt[3],"all.rt")
+
+#politics
+batchplot(vars.politics[2],"all.rt")
+batchbox(vars.politics[1],"all.rt")
+
+#economy
+vars.econom<-c("foreign.since2000.2012.pctchng","gdp.10yr.growth","gdp15.mxind","gdp10y.chgind")
+batchplot(vars.econom[c(1,2)],"all.rt")
+batchbox(vars.econom[c(3,4)],"all.rt")
+
+#make formula of variable names by group vector
+mkformula<-function(x){
+  y<-x[1]
+  for(i in x){
+    y<-paste(y,i,sep=" + ")
+  }
+  return(y)
+  }
+
+
+
+summary.lm(lm(all.rt ~ race.wht.2012 + female.2012.pct, data=d))
+summary.lm(lm(all.rt ~ race.wht.2012 + female.2012.pct + race.wht.2012:female.2012.pct, data=d))
+
+summary(lm(eval(parse(text=paste0("all.rt~",mkformula(vars.demog)))), data=d))
+summary(lm(eval(parse(text=paste0("all.rt~",mkformula(vars.socio)))), data=d))
+summary(lm(eval(parse(text=paste0("all.rt~",mkformula(vars.educa)))), data=d))
+summary(lm(eval(parse(text=paste0("all.rt~",mkformula(vars.health)))), data=d))
+summary(lm(eval(parse(text=paste0("all.rt~","factor(urbanrural)"))), data=d))
+
+
+```
+
++[3b]Regression Analysis
+```{r logistic, eval=TRUE}
+###--LOGISTIC REGRESSION--###----
+
+d$hotspot_bin <- ifelse(d$hotspot_any>0,1,0)
+
+chisq.test(table(d$hotspot_bin, d$urbanrural)) 
+summary((glm(hotspot_bin~urbanrural, data=d, family=binomial())))
+exp(coef(glm(hotspot_bin~urbanrural, data=d, family=binomial()))) #Odds ratios
+
+
+```
+
+##PART 4: PREDICTION
+
++[4a]Regression Analysis
+```{r surpervised learning, eval=TRUE}
+###--RANDOM FORREST--###----
+
+dsub <- data.table(sapply(d[,21:104],function(x)ifelse(is.na(x),0,x)))
+
+dt.rf <- randomForest(hotspot_bin~., data=dsub, ntree=100, importance=TRUE) #run random forest function
+    summary(dt.rf$importance[,4]) #print summary of importance measures
+    quantile(dt.rf$importance[,4], prob = seq(0, 1, length = 11), type = 5) # list deciles of MeanDecreaseGini values
+    rf.decile <- quantile(dt.rf$importance[,4], c(.90))
+    dt.rf.important <- as.vector(names(dt.rf$importance[dt.rf$importance[,4]>rf.decile,c(0,4)])) # store var names in top decile as vector
+    'The following variables were identified as most important, based on the top decile of MeanDecreaseGini values:'
+    dt.rf.important #print variables with importance in top decile
+    dt.rf #report summary to get OOB
+    dt.rf.pred <- predict(dt.rf, dsub, type="prob") #predict outcome/classification
+    dt.rf.pred.control <- dt.rf.pred[, 2] #extract predicted probability of 'control' only
+
+
+```
+
+##PART 5: VISUALIZATION
+
++[5a]Visualization
+```{r plot data, eval=TRUE}
+###--HEAT MAPS--###----
+
+#get gini values, input into matrix
+dmat<-t(data.matrix(d[,21:103]))
+heatmap <- heatmap(dmat, Rowv=NA, Colv=NA, col = heat.colors(256), scale="column", margins=c(5,10))
+
+my_palette <- colorRampPalette(c('red','yellow','green'))(256)
+
+scaled <- scale(dmat[,-1])    # scale all but the first column to make information comparable
+heatmap.2(scaled,               # specify the (scaled) data to be used in the heatmap
+          cexRow=0.5, 
+          cexCol=0.95,          # decrease font size of row/column labels
+          col = my_palette,     # arguments to read in custom colors
+          colsep=c(2,4,5),      # Adding on the separators that will clarify plot even more
+          rowsep = c(6,14,18,25,30,36,42,47), 
+          sepcolor="black", 
+          sepwidth=c(0.01,0.01),  
+          scale="none",         # we have already scaled the data 
+          dendrogram="none",    # no need to see dendrograms in this one 
+          trace="none") 
+
+```
