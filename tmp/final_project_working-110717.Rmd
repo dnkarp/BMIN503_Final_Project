@@ -1,0 +1,56 @@
+---
+title: "BMIN503/EPID600 Project Template"
+author: "David N Karp"
+output: 
+  html_document:
+    toc: false 
+    depth: 3 
+    theme: paper 
+    highlight: tango
+---
+```{r set-options, echo=FALSE, cache=FALSE}
+options(width = 400)
+```  
+***
+Use this template to complete your project throughout the course. Your Final Project presentation in class will be based on the contents of this document. Replace the title/name and text below with your own, but leave the headers.
+
+> Project repo available here: https://github.com/dnkarp/BMIN503_Final_Project
+
+> PROPOSAL
+> For my final project I propose to explore spatial and temporal trends in the recent opioid epidemic in the US.  My  research question has multiple parts: 1) do geographic hot-spots of drug overdose deaths exist in the US, and can we classify them as clusters of high mortality, low mortality, or outliers (i.e. a cool-spot within a larger hot-spot cluster); 2) which of the  clusters are persistent, growing, shrinking or shifting over time; 3) what socio-environmental factors (demographics, built environment, public health and healthcare) are associated with higher and lower rates of mortality, spatial cluster classification, and temporal trend classification.  I also plan to explore these trends among sub-groups, stratifying by age and race. For this project I propose to use the Multiple Casue of Death (MCOD) file from the Centers for Disease Control and Prevention (CDC) to identify mortality as an outcome, as well as data from the US CENSUS (American Community Survey (ACS)), the US Department of Agriculture (Economic Research Service (ERS)), the US Department of Health and Human Services (Area Health Resource File (AHRF)), among other publically available data sources (e.g. opioid prescription rates, crime rates, treatment facilities). The methods proposed in this work will involve tools and techniques using R, covered in class: data manipulation, descriptive statitics and univate and multivariable linear and logistic regression, data visualization, predictive analytics and machine learning.  I would also like to explore some additional, 'geospatial' functionality in R to visualize map data (e.g. rgdal, rgeos, tmap, maptools, ggmap packages in R), run tests for spatial autocorrelation (e.g. sp, spdep package in R), develop geographically weighted regression models (e.g. spgwr, lctools, GWModel packages in R), and explore methods for identifying and visualizing temporal trends (e.g spacetime package in R).
+
+> ADVISORY COMMITTEE:
+>
+[1] Douglas J Wiebe, PhD, Associate Professor of Epidemiology in Biostatistics and Epidemiology, DEBI (expertise in epidemiological research design, research on injury, acute care outcomes, and spatial analysis and geographic modeling);
+>
+[2] Christopher Morrison, PhD MPH, Post-doctoral fellow, CCEB (expertise in spatial statistics, research on injury, urban youth violence, and methods in spacetime modeling); 
+>
+[3] Zachary Meisel, MD MPH MS, Associate Professor in the Department of Emergency Medicine (expertise in emergency care management, research on substance abuse and opioid prescribing practices) 
+>
+[*] depending on which methods I end up using, I also expect to consult with other staff/faculty as necessary (e.g. Will LaCava - ML, Jason Moore - visualization)
+
+
+### Overview
+In this section, give a brief a description of your project and its goal, what data you are using to complete it, and what three faculty/staff in different fields you have spoken to about your project with a brief summary of what you learned from each person. Include a link to your final project GitHub repository.
+
+> OVERVIEW
+> The opioid crisis has reached epidemic levels with national overdose mortality rates continuing to increase in recent decades. Across the country, both rural and urban communities alike face a growing burden of disease related to addiction and death from prescription painkillers, heroin and other synthetic opioids. In this study we analyzed county-level cause of death data from 1995-2015 in order to identify spatio-temporal clusters of high and low mortality from drug overdoses, and to describe the marginal contribution of a variety of associated socio-environmental factors. The goal of this study was to first, describe patterns and trends of mortality, in order to understand where the problem has improved, worsened or shifted over space and time, and second, evaluate positive/negative drivers that may help explain and predict future deaths, in order to inform policy efforts and public health interventions toward slowing and reversing the growing death toll.
+
+
+### Introduction 
+In the first paragraph, describe the problem addressed, its significance, and some background to motivate the problem.
+
+In the second paragraph, explain why your problem is interdisciplinary, what fields can contribute to its understanding, and incorporate background related to what you learned from meeting with faculty/staff.
+
+> INTRODUCTION
+> Overdose deaths from opioids have reached epidemic levels in recent years, with a daily death toll upwards of XXX, and this year is predicted to be the worst yet [CITATION]. News headlines now regularly report on the crisis, and the federal government has finally declared a public health emergency [CITATION].  Despite recent public attention to the issue, a proper, coordinated response to the crisis has been underfunded [CITATION], misdirected [CITATION], and slow to act [CITATION]. Further, proposed solutions to address the problem are varied, from criminalizing/decriminalizing drug use, increasing access to treatment/rehabilitation, training first responders and equipping police/EMTs with Narcan, and regulating prescription practices for pain management. Mobilizing an effective campaign to slow and reverse the crisis will realistically involve local, regional, and national efforts, as well as intersect across public health, healthcare, and community stakeholders [CITATION]. The current epidemic spans diverse populations, geographies, and sources/causes, making it critical to employ a multidisciplinary approach to coming up with effective interventions. Overdoses have spiked among users of both legal and illegal drugs (prescription painkillers, heroin, new synthetic opioids) [CITATION], and the pathways between the two populations create a complex dynamic of who is at-risk and what interventions could potentially help.  Therefore, it is important to understand a variety of exposure factors (risk and protective) contributing to the problem and the solutions, including but not limited to, substance abuse/addiction treatment, harm reduction, prescription practices, pharmaceutical marketing, policy and policing, access to primary and acute healthcare, mental/behavioral healthcare, individual demographics, socio-economic-political context, social and built environment, etc.
+
+> An interdisciplinary approach to this research study will serve to inform a multi-pronged solution, whether they are led by public health campaigns, healthcare innovations, or community-driven advocacy, support, and awareness efforts.  Given the complexity, and multidimensionality of the issue, it is essential to understand the various component risk factors and points of intervention along a causal pathway, or continuum of care.  In other words, we are equally interested in upstream (education, healthy neighborhoods, unemployment, housing, preventative care) and downstream (overdose reversal, acute care, addiction treatment, criminalization) factors. At the intersection public health and healthcare, it is also important to measure burden of disease at multiple scales (geographic, temporal) and to assess exposures for both individual and community level effects. Measuring variability in outcomes, and estimating contributing risk factors will be essential to explaining which communities face higher burdens of disease, but also which types of interventions may be most suited for deployment. Methodologically, this study draws from health services and population health research, epidemiological and biostatistical methods, and geographic and spatio-temopral modeling and statistics. Novel applications of space-time models, Bayesian estimation, and machine learning/prediction techniques have been used to study various kinds of 'outcomes' (crime, disease, hospitalization, death) and to estimate contributing factors. Opioid-related work has shown that drug overdose deaths cluster geographically by county [CITATION], across time periods [CITATION], and that [X, Y, Z] are associated with higher mortality [CITATION]. Yet, more actionable, policy-ready research is needed to engage relevant stakeholders in developing and implementing effective solutions. In recent years, attention has turned to understanding the role of healthcare (access, quality, and delivery), including prescription practices, pain management, and treatment for substance abuse [CITATION], while prevention and harm reduction advocates have highlighted the importance of training first responders, overdose reversal treatment (Narcan/Naloxone), needle exchanges and injection sites [CITATION].  Input from these areas has helped to guide the research design of this study. 
+
+### Methods
+In the first paragraph, describe the data used and general methodological approach. Subsequently, incorporate full R code necessary to retrieve and clean data, and perform analysis. Be sure to include a description of code so that others (including your future self) can understand what you are doing and why. 
+
+>see final_project_working_notebook.Rmd
+
+### Results
+Describe your results and include relevant tables, plots, and code/comments used to obtain them. End with a brief conclusion of your findings related to the question you set out to address. You can include references if you'd like, but this is not required.

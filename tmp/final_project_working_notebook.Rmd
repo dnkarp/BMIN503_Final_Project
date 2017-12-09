@@ -1,0 +1,122 @@
+---
+title: "FINAL PROJECT -- WORKING NOTEBOOK"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
++SET-UP WORKSPACE
+```{r}
+#macbook
+save.image("/Volumes/home_dkarp/courses/fall-2017/EPID-600/final_project/working/working-103017.RData")
+setwd("/Volumes/home_dkarp/courses/fall-2017/EPID-600/final_project/working/")
+
+#scismb
+#save.image("/home/dkarp/courses/fall-2017/EPID-600/final_project/working/working-101717.RData")
+#setwd("/home/dkarp/courses/fall-2017/EPID-600/final_project/working/")
+
+#local copy
+#setwd("/Volumes/dkarp/Dropbox/courses/fall-2017/EPID-600/final_project/working/")
+
+```
+
++LOAD LIBRARIES
+```{r}
+#install.packages("data.table") #install package if needed
+library(data.table) #load data.table
+library(dplyr) #load dplyr
+library(ggplot2) #load ggplot2
+
+```
+
++LOAD DATA
+```{r}
+#set raw data path
+dt.path <- "/Volumes/project_geohealthlab/data_load/cmf/raw/MORT9914.txt" #macbook
+#dt.path <- "/project/geohealthlab/data_load/cmf/raw/MORT9914.txt" #scismb
+
+#dt.raw <- fread(dt.path, sep="\r", header = FALSE, nrows=10) #load in first 10 rows
+dt.raw <- fread(dt.path, sep="\r", header = FALSE) #load in all rows
+
+#save raw import data object
+saveRDS(dt.raw, file="cmf_rawimport.RDa")
+
+#create vars to specifiy substrings
+state_fips = substr(dt.raw$V1,1,2)
+county_fips = substr(dt.raw$V1,3,5)
+state_county_fips = substr(dt.raw$V1,1,5)
+year_str = substr(dt.raw$V1,6,9)
+race_sex_str = substr(dt.raw$V1,10,10)
+hispanic_str = substr(dt.raw$V1,11,11)
+age_str = substr(dt.raw$V1,12,13)
+icd10_str = substr(dt.raw$V1,14,17)
+causeofdeath_str = substr(dt.raw$V1,18,20)
+deaths_str = substr(dt.raw$V1,21,24)
+
+#extract values into unique variables(cols)
+dt.ext <- data.table("state_fips"=state_fips, "county_fips"=county_fips, "state_county_fips"=state_county_fips, "year_str"=year_str, "race_sex_str"=race_sex_str, "hispanic_str"=hispanic_str, "age_str"=age_str, "icd10_str"=icd10_str, "causeofdeath_str"=causeofdeath_str, "deaths_str"=deaths_str)
+
+#save raw load data object
+saveRDS(dt.ext, file="cmf_rawload.RDa")
+
+#extract single year (2014)
+dt.2014 <- data.table(dt.ext[dt.ext$year_str=="2014",])
+
+#save single year data object
+saveRDS(dt.2014, file="cmf_2014.RDa")
+
+#specify ICD10 codes for drug-related deaths
+drugrelated = c("X40", "X41", "X42", "X43", "X44", "X60", "X61", "X62", "X63", "X64", "X85", "Y10", "Y11", "Y12", "Y13", "Y14")
+
+#subset data for drug-related deaths only
+dt.2014.drugs <- dt.2014[substr(dt.2014$icd10_str,1,3) %in% drugrelated]
+
+#save single year drug-related subset
+saveRDS(dt.2014.drugs, file="cmf_2014_drugrelated.RDa")
+
+#read in working data
+dt.2014.drugs <- readRDS(file="cmf_2014_drugrelated.RDa")
+  
+```
+
++CLEAN DATA
+```{r}
+#recode variables
+dt.2014.drugs.clean <- dt.2014.drugs %>%
+  mutate(race_sex_fct=factor(race_sex_str,levels=c(1,2,3,4,5,6,7,8), labels=c("White male","White female","Black male","Black female","American Indian or Alaska Native male","American Indian or Alaska Native female","Asian or Pacific Islander male","Asian or Pacific Islander female"))) %>%
+  mutate(hispanic_fct=factor(hispanic_str,levels=c(1,2,9), labels=c("not Hispanic or Latino","Hispanic or Latino","not stated"))) %>%
+  mutate(age_fct=factor(age_str,levels=c(' 1',' 2',' 3',' 4',' 5',' 6',' 7',' 8',' 9', 10, 11, 12, 13, 14, 15, 16, 99), labels=c("under 1 day","1-6 days","7-27 days","28-364 days","1-4 years","5-9 years","10-14 years","15-19 years","20-24 years","25-34 years","35-44 years","45-54 years","55-64 years","65-74 years","75-84 years","85+ years","Unknown"))) %>%
+  mutate(sex=as.factor(ifelse(race_sex_str %in% c(1,3,5,7), 1, 2))) %>%
+  mutate(sex=recode(sex,"1"="male","2"="female")) %>%
+  mutate(race=ifelse(race_sex_str %in% c(1,2), 1, ifelse(race_sex_str %in% c(3,4), 2, 3))) %>%
+  mutate(race=recode(race,"1"="white","2"="black","3"="other")) %>%
+  mutate(age=as.factor(ifelse(age_str %in% c(' 1',' 2',' 3',' 4',' 5',' 6',' 7',' 8'),1,ifelse(age_str %in% c(' 9',10),2, ifelse(age_str %in% c(11,12), 3, ifelse(age_str %in% c(13,14,15,16), 4, 5)))))) %>%
+  mutate(age=recode(age,"1"="<20","2"="20-34","3"="34-54", "4"="55+", "5"="unknown"))
+
+#expand wide to long format (duplicate rows based on death count)
+df<-dt.2014.drugs.clean
+dt.2014.drugs.expanded <- df[rep(row.names(df), df$deaths_str), c(1:4,8:9,11:16)]
+
+```
+
++EXPLORATORY ANALYSIS
+```{r}
+dt.2014.drugs.expanded %>%
+  ggplot(aes(x=age)) + #Load data, specify variables
+    geom_bar() #Add a visual layer that is a barplot 
+
+dt.2014.drugs.expanded %>%
+  ggplot(aes(x=race)) + #Load data, specify variables
+    geom_bar() #Add a visual layer that is a barplot
+
+dt.2014.drugs.expanded %>%
+  ggplot(aes(x=sex)) + #Load data, specify variables
+    geom_bar() #Add a visual layer that is a barplot
+```
+
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file).
