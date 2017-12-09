@@ -3,11 +3,11 @@
 This repository contains data files, R code, and a written report for my final project, "Space-Time Analysis of the Opioid Crisis in the US, using R". This study aims to explore spatial and temporal variability and trends in county level drug overdoses, classify counties by cluster type, and then evaluate contributing factors associated with mortality outcomes. 
 
 Contents in this repo:
- - analytic dataset (XXXX)
- - Rscript with code for cleaning and setting up the data (XXX)
- - Rmarkdown file with code for running the analysis and output results (XXXX)
- - Rmarkdown file with the writen report (DRAFT_REPORT.Rmd) 
- - PDF file with a slidedeck for class presentation (XXXX)
+ - analytic dataset [hotspots](https://github.com/dnkarp/BMIN503_Final_Project/blob/master/data/hotspots/hotspots.suppressed.Rda)
+ - Rscript with code for cleaning and setting up the data [various sub-directories in data](https://github.com/dnkarp/BMIN503_Final_Project/tree/master/data)
+ - Rmarkdown file with code for running the analysis and output results [preliminary_results_120817.Rmd](https://github.com/dnkarp/BMIN503_Final_Project/blob/master/code/preliminary_results_120817.Rmd)
+ - Rmarkdown file with the writen report [DRAFT_REPORT.Rmd](https://github.com/dnkarp/BMIN503_Final_Project/blob/master/DRAFT_REPORT.Rmd)
+ - PDF file with a slidedeck for class presentation [karp_epid600_final_presentation-- FINAL -- 113017.pptx](https://github.com/dnkarp/BMIN503_Final_Project/blob/master/presentation/karp_epid600_final_presentation--%20FINAL%20--%20113017.pptx)
 
 The study uses CDC multiple cause of death data. The raw death data contain PII and therefore is not included in this repo.  All cells <10 have been supressed in order to make this data publically available.
 
